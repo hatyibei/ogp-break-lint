@@ -1,0 +1,48 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    name: test (Node ${{ matrix.node-version }})
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        node-version: [20, 24]
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: npm
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm test
+      - run: npm run build
+      - run: npm run fixtures
+      - name: Check dist/ is up to date
+        run: git diff --exit-code -- dist
+      - name: Run bundled action entry locally (expect pass)
+        env:
+          INPUT_FILE: examples/post.md
+          INPUT_CONFIG: examples/ogp-break-lint.yml
+          GITHUB_OUTPUT: ${{ runner.temp }}/ogp-output.txt
+        run: |
+          node dist/index.cjs
+          grep -qx 'exit-code=0' "$GITHUB_OUTPUT"
+      - name: Run bundled action entry locally (expect a mid-phrase violation)
+        env:
+          INPUT_TITLE: 開発者にも届けたい技術記事
+          INPUT_WIDTH: "448"
+          INPUT_PADDING: "0"
+          GITHUB_OUTPUT: ${{ runner.temp }}/ogp-output-fail.txt
+        run: |
+          set +e
+          node dist/index.cjs
+          code=$?
+          set -e
+          test "$code" -eq 1
+          grep -qx 'exit-code=1' "$GITHUB_OUTPUT"
