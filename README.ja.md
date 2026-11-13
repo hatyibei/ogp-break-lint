@@ -31,6 +31,10 @@ CI に必要なのは、次のようなチェックです。
 
 検出と報告だけを行います。自動修正はしません。
 
+## ブラウザで試す
+
+[デモページ](https://hatyibei.github.io/ogp-break-lint/)にタイトルを貼ると、OGP画像の幅でどう折り返されるか、文節の途中で折れている箇所があるかが分かります。ページはブラウザだけで動き、CLI の既定と同じエンジンと Noto Sans JP のメトリクスを使います。
+
 ## クイックスタート
 
 ### GitHub Action
@@ -279,9 +283,10 @@ npm ci
 npm run typecheck
 npm test        # node --import tsx --test test/*.test.ts
 npm run build   # esbuild → dist/cli.cjs, dist/index.cjs
+npm run build:demo  # esbuild → docs/demo.js（GitHub Pages のデモ）
 ```
 
-パッケージは `"type": "module"` なので、バンドルは `.cjs` です。`dist/` はコミットしており、CI で最新かどうかを確認しています。CI は Node 20 と 24 で実行しています。
+パッケージは `"type": "module"` なので、CLI と Action のバンドルは `.cjs` です。`dist/` はコミットしており、CI で最新かどうかを確認しています。`docs/demo.js` はブラウザデモのバンドルです。エンジンか `src/demo-app.ts` を変えたら `npm run build:demo` で再生成してください。CI は Node 20 と 24 で実行しています。
 
 ## 関連プロジェクト
 

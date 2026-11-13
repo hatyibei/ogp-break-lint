@@ -9,5 +9,7 @@ This product bundles the following third-party software in dist/:
 - linebreak (MIT)
 - fontkit (MIT)
 - yaml (ISC)
+
+docs/demo.js also bundles BudouX (Apache-2.0) and linebreak (MIT).
 The kerning table in src/kern-table.ts and the ASCII widths in src/width.ts are
 metrics measured from Noto Sans JP (SIL Open Font License 1.1); no font data is included.

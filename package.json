@@ -12,8 +12,9 @@
     "build:action": "esbuild src/action.ts --bundle --platform=node --target=node20 --format=cjs --outfile=dist/index.cjs",
     "test": "node --import tsx --test test/*.test.ts",
     "start": "node dist/cli.cjs",
-    "typecheck": "tsc --noEmit",
-    "fixtures": "node dist/cli.cjs lint --file fixtures/titles.txt --list --width 2400"
+    "typecheck": "tsc --noEmit && tsc --noEmit -p tsconfig.demo.json",
+    "fixtures": "node dist/cli.cjs lint --file fixtures/titles.txt --list --width 2400",
+    "build:demo": "esbuild src/demo-app.ts --bundle --format=iife --outfile=docs/demo.js --platform=browser --target=es2022 --minify"
   },
   "engines": {
     "node": ">=20"

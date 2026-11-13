@@ -31,6 +31,10 @@ What CI needs is a check that:
 
 Detection and reporting only. There is no auto-fix.
 
+## Try it in the browser
+
+Paste a title into the [live demo](https://hatyibei.github.io/ogp-break-lint/) to see how it wraps on an OGP-sized canvas, and which breaks fall in the middle of a phrase. The page runs entirely in the browser and uses the same engine and Noto Sans JP metrics as the CLI's default estimate.
+
 ## Quick start
 
 ### GitHub Action
@@ -279,9 +283,10 @@ npm ci
 npm run typecheck
 npm test        # node --import tsx --test test/*.test.ts
 npm run build   # esbuild → dist/cli.cjs, dist/index.cjs
+npm run build:demo  # esbuild → docs/demo.js (GitHub Pages demo)
 ```
 
-The package is `"type": "module"`, so the bundles are `.cjs`. `dist/` is committed and CI checks that it is up to date. CI runs on Node 20 and 24.
+The package is `"type": "module"`, so the CLI and Action bundles are `.cjs`. `dist/` is committed and CI checks that it is up to date. `docs/demo.js` is the browser demo bundle; regenerate it with `npm run build:demo` after changing the engine or `src/demo-app.ts`. CI runs on Node 20 and 24.
 
 ## Related projects
 

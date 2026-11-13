@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ogp-break-lint — タイトルの折れ方を試す</title>
+  <meta name="description" content="日本語のタイトルを、OGP画像の幅で折り返して表示します。文節の途中で折れている箇所が分かります。ogp-break-lint と同じエンジンがブラウザだけで動きます。">
+  <meta name="color-scheme" content="light">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap">
+  <style>
+    :root {
+      --bg: #f3efe6;
+      --bg-elev: #fffdf8;
+      --ink: #1c1916;
+      --ink-soft: #57534e;
+      --line: #e4dccb;
+      --mid: #c2410c;
+      --mid-bg: #ffedd5;
+      --ok: #0f766e;
+      --ok-bg: #ccfbf1;
+      --kin: #a16207;
+      --kin-bg: #fef3c7;
+      --overflow: #6d28d9;
+      --card-bg: #18181b;
+      --card-fg: #fafafa;
+      --shadow: 0 16px 40px rgba(28, 25, 22, 0.12);
+      --mono: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+      --sans: "Noto Sans JP", "Hiragino Sans", "Hiragino Kaku Gothic ProN", sans-serif;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      font-family: var(--sans);
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+    a { color: inherit; }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 1rem;
+      flex-wrap: wrap;
+      padding: 1.5rem 1.5rem 0;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    header h1 {
+      font-size: 1.15rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin: 0;
+    }
+    header p.lead {
+      margin: 0.2rem 0 0;
+      color: var(--ink-soft);
+      font-size: 0.95rem;
+    }
+    header nav { display: flex; gap: 1rem; font-size: 0.9rem; }
+    header nav a { text-decoration: underline; text-underline-offset: 3px; }
+    main {
+      display: grid;
+      grid-template-columns: minmax(260px, 360px) minmax(0, 1fr);
+      gap: 1.75rem;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 1.5rem;
+    }
+    @media (max-width: 860px) {
+      main { grid-template-columns: 1fr; padding: 1rem; }
+      header { padding: 1rem 1rem 0; }
+    }
+    .panel {
+      background: var(--bg-elev);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 1.1rem 1.15rem 1.25rem;
+      box-shadow: var(--shadow);
+    }
+    label.field {
+      display: block;
+      font-size: 0.8rem;
+      font-weight: 700;
+      margin: 0.9rem 0 0.3rem;
+    }
+    label.field span.val {
+      font-weight: 500;
+      color: var(--ink-soft);
+      float: right;
+    }
+    textarea, select, input[type="number"] {
+      width: 100%;
+      font: inherit;
+      color: inherit;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 0.6rem 0.7rem;
+    }
+    textarea { min-height: 7.5rem; resize: vertical; line-height: 1.7; }
+    input[type="range"] { width: 100%; accent-color: var(--ink); }
+    .row { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; }
+    .samples { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.7rem; }
+    button.sample, button.action {
+      font: inherit;
+      cursor: pointer;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      background: #fff;
+      color: var(--ink);
+      padding: 0.3rem 0.7rem;
+      font-size: 0.78rem;
+    }
+    button.sample:hover, button.action:hover { border-color: var(--ink); }
+    .actions { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 1rem; }
+    button.action.primary {
+      background: var(--ink);
+      color: var(--bg-elev);
+      border-color: var(--ink);
+    }
+    .hint { font-size: 0.75rem; color: var(--ink-soft); margin: 0.35rem 0 0; }
+    .preview-wrap h2, #summary h2 {
+      font-size: 0.8rem;
+      letter-spacing: 0.04em;
+      text-transform: none;
+      margin: 1.2rem 0 0.45rem;
+    }
+    .stage {
+      width: 100%;
+      position: relative;
+      overflow: hidden;
+    }
+    .card {
+      background: var(--card-bg);
+      color: var(--card-fg);
+      border-radius: 4px;
+      transform-origin: top left;
+      position: absolute;
+      top: 0;
+      left: 0;
+      overflow: hidden;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.25);
+      font-family: "Noto Sans JP", "Hiragino Sans", sans-serif;
+      font-weight: 400;
+    }
+    .card-box {
+      position: relative;
+      height: 100%;
+      box-sizing: border-box;
+    }
+    .card-line {
+      position: relative;
+      display: flex;
+      align-items: center;
+      white-space: pre;
+      line-height: var(--lh);
+      font-size: var(--fs);
+    }
+    .card-line-text { display: inline-block; }
+    .card-line .is-mid {
+      background: rgba(251, 146, 60, 0.42);
+    }
+    .card-line .is-kinsoku {
+      background: rgba(250, 204, 21, 0.55);
+      outline: 2px solid #facc15;
+    }
+    .card-line.is-overflow { opacity: 0.4; }
+    .card-meta {
+      position: absolute;
+      left: 20px;
+      right: 20px;
+      bottom: 16px;
+      font-size: 14px;
+      letter-spacing: 0.04em;
+      color: #a1a1aa;
+      font-variant-numeric: tabular-nums;
+    }
+    .placeholder, .error {
+      margin: 0;
+      padding: 2rem 1rem;
+      border: 1px dashed var(--line);
+      border-radius: 12px;
+      color: var(--ink-soft);
+      background: var(--bg-elev);
+    }
+    .error { color: var(--mid); border-color: var(--mid); background: var(--mid-bg); }
+    .status { font-weight: 700; margin: 0; }
+    .status.is-ok { color: var(--ok); }
+    .status.is-bad { color: var(--mid); }
+    .segments { display: flex; flex-wrap: wrap; gap: 0.35rem; }
+    .seg {
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 0.15rem 0.45rem;
+      font-size: 0.9rem;
+    }
+    .seg.is-mid {
+      background: var(--mid-bg);
+      border-color: var(--mid);
+      color: var(--mid);
+      font-weight: 700;
+    }
+    .violations { list-style: none; margin: 0; padding: 0; }
+    .violations li { margin: 0.3rem 0; }
+    .violations li.is-mid_phrase b { color: var(--mid); }
+    .violations li.is-kinsoku b { color: var(--kin); }
+    .violations li.is-overflow b { color: var(--overflow); }
+    .violations li.is-ok { color: var(--ok); }
+    table.lines {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.85rem;
+    }
+    table.lines th, table.lines td {
+      text-align: left;
+      border-bottom: 1px solid var(--line);
+      padding: 0.35rem 0.4rem;
+      vertical-align: top;
+    }
+    table.lines .mono { font-family: var(--mono); white-space: pre-wrap; }
+    table.lines .num { font-variant-numeric: tabular-nums; }
+    table.lines .is-ok { color: var(--ok); }
+    table.lines .is-bad { color: var(--mid); font-weight: 700; }
+    pre#previewText {
+      background: #1c1916;
+      color: #f5f0e8;
+      padding: 1rem;
+      border-radius: 12px;
+      overflow: auto;
+      font-size: 0.78rem;
+      line-height: 1.55;
+      font-family: var(--mono);
+      min-height: 4rem;
+    }
+    footer {
+      max-width: 1200px;
+      margin: 0 auto 2rem;
+      padding: 0 1.5rem;
+      color: var(--ink-soft);
+      font-size: 0.8rem;
+    }
+    footer p { margin: 0.3rem 0; }
+    noscript p { margin: 1.5rem; padding: 1rem; background: var(--mid-bg); }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <h1>ogp-break-lint</h1>
+      <p class="lead">自分のタイトルを入れて、OGP画像での折れ方を試せます。</p>
+    </div>
+    <nav>
+      <a href="https://github.com/hatyibei/ogp-break-lint">GitHub</a>
+      <a href="https://github.com/hatyibei/ogp-break-lint/blob/main/README.ja.md">README</a>
+    </nav>
+  </header>
+  <main>
+    <section class="panel" aria-labelledby="inputHeading">
+      <h2 id="inputHeading" class="visually-hidden" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)">入力</h2>
+      <form id="form">
+        <label class="field" for="title">タイトル</label>
+        <textarea id="title" name="title" placeholder="記事のタイトルを貼り付けてください" spellcheck="false"></textarea>
+        <div id="samples" class="samples" aria-label="サンプルタイトル"></div>
+
+        <label class="field" for="width">画像の幅 <span class="val" id="widthVal"></span></label>
+        <input id="width" name="width" type="range" min="320" max="2400" step="8" value="1200">
+
+        <label class="field" for="padding">左右の余白（padding） <span class="val" id="paddingVal"></span></label>
+        <input id="padding" name="padding" type="range" min="0" max="240" step="4" value="80">
+        <p class="hint">利用幅 = 幅 − 余白 × 2 = <strong id="contentWidthVal">1040 px</strong></p>
+
+        <div class="row">
+          <div>
+            <label class="field" for="fontSize">フォントサイズ <span class="val" id="fontSizeVal"></span></label>
+            <input id="fontSize" name="fontSize" type="range" min="24" max="128" step="1" value="64">
+          </div>
+          <div>
+            <label class="field" for="lineHeight">行の高さ <span class="val" id="lineHeightVal"></span></label>
+            <input id="lineHeight" name="lineHeight" type="range" min="1" max="2" step="0.05" value="1.25">
+          </div>
+        </div>
+
+        <div class="row">
+          <div>
+            <label class="field" for="maxLines">最大行数 <span class="val" id="maxLinesVal"></span></label>
+            <input id="maxLines" name="maxLines" type="range" min="1" max="8" step="1" value="3">
+          </div>
+          <div>
+            <label class="field" for="wordBreak">word-break</label>
+            <select id="wordBreak" name="wordBreak">
+              <option value="normal" selected>normal</option>
+              <option value="break-all">break-all</option>
+              <option value="keep-all">keep-all</option>
+            </select>
+          </div>
+        </div>
+        <p class="hint">word-break は Satori / CSS と同じです。normal が既定、break-all は1文字ずつ、keep-all は単語境界です。その他の既定値（幅 1200px、余白 80px、フォント 64px、最大 3 行）も CLI と同じです。</p>
+        <div class="actions">
+          <button type="button" class="action primary" id="copyLink">この結果のURLをコピー</button>
+          <button type="button" class="action" id="reset">既定値に戻す</button>
+        </div>
+      </form>
+    </section>
+    <section class="preview-wrap" aria-live="polite">
+      <h2>プレビュー</h2>
+      <div id="preview"></div>
+      <div id="summary"></div>
+      <div class="actions" style="margin-top:0.8rem">
+        <button type="button" class="action" id="copyPreview">テキストの判定結果をコピー</button>
+      </div>
+      <h2>テキストの判定結果</h2>
+      <pre id="previewText"></pre>
+    </section>
+  </main>
+  <footer>
+    <p>折り位置の計算は、CLI の既定と同じく Noto Sans JP Regular の推定幅とカーニング表を使っています。エンジンとメトリクスはページに同梱してあり、入力はブラウザの外に出ません。</p>
+    <p>実フォントや Satori の描画とは差が出ることがあります。表示用に読み込んでいる Noto Sans JP と、計算に使っているメトリクスでも、カーニングの入り方などで見た目の幅が数 px ずれることがあります。</p>
+    <p><a href="https://github.com/hatyibei/ogp-break-lint">ogp-break-lint</a> は Apache-2.0 です。BudouX と linebreak を同梱しています。Noto Sans JP のメトリクスは SIL Open Font License 1.1 です。</p>
+  </footer>
+  <noscript><p>デモを使うには JavaScript を有効にしてください。</p></noscript>
+  <script src="demo.js" defer></script>
+</body>
+</html>
