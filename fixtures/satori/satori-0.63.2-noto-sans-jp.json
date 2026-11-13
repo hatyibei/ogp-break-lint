@@ -1,0 +1,5543 @@
+{
+ "satoriVersion": "0.63.2",
+ "font": "NotoSansJP-Regular-static.ttf",
+ "node": "v24.22.1",
+ "generatedAt": "2026-11-13T07:39:46.096Z",
+ "tally": {
+  "normal": {
+   "font": 120,
+   "estimate": 118,
+   "total": 120
+  },
+  "break-all": {
+   "font": 120,
+   "estimate": 119,
+   "total": 120
+  }
+ },
+ "cases": [
+  {
+   "title": "Next.js 15 の App Router で OGP 画像を動的に生成する方法",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "Next.js 15 の App Router で OGP 画",
+    "像を動的に生成する方法"
+   ],
+   "engineFont": [
+    "Next.js 15 の App Router で OGP 画",
+    "像を動的に生成する方法"
+   ],
+   "engineEstimate": [
+    "Next.js 15 の App Router で OGP 画",
+    "像を動的に生成する方法"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@31"
+   ]
+  },
+  {
+   "title": "TypeScript 7 へのアップグレードで踏んだ地雷まとめ",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "TypeScript 7 へのアップグレードで",
+    "踏んだ地雷まとめ"
+   ],
+   "engineFont": [
+    "TypeScript 7 へのアップグレードで",
+    "踏んだ地雷まとめ"
+   ],
+   "engineEstimate": [
+    "TypeScript 7 へのアップグレードで",
+    "踏んだ地雷まとめ"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "個人開発で月 10 万円を稼ぐまでにやったこと全部",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "個人開発で月 10 万円を稼ぐまでに",
+    "やったこと全部"
+   ],
+   "engineFont": [
+    "個人開発で月 10 万円を稼ぐまでに",
+    "やったこと全部"
+   ],
+   "engineEstimate": [
+    "個人開発で月 10 万円を稼ぐまでに",
+    "やったこと全部"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "【保存版】GitHub Actions のキャッシュを使いこなす",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "【保存版】GitHub Actions のキャッ",
+    "シュを使いこなす"
+   ],
+   "engineFont": [
+    "【保存版】GitHub Actions のキャッ",
+    "シュを使いこなす"
+   ],
+   "engineEstimate": [
+    "【保存版】GitHub Actions のキャッ",
+    "シュを使いこなす"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@24"
+   ]
+  },
+  {
+   "title": "「なんとなく」で書いていた useEffect をやめた話",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "「なんとなく」で書いていた ",
+    "useEffect をやめた話"
+   ],
+   "engineFont": [
+    "「なんとなく」で書いていた ",
+    "useEffect をやめた話"
+   ],
+   "engineEstimate": [
+    "「なんとなく」で書いていた ",
+    "useEffect をやめた話"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "Rust で CLI ツールを作って npm に公開してみた",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "Rust で CLI ツールを作って npm に",
+    "公開してみた"
+   ],
+   "engineFont": [
+    "Rust で CLI ツールを作って npm に",
+    "公開してみた"
+   ],
+   "engineEstimate": [
+    "Rust で CLI ツールを作って npm に",
+    "公開してみた"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "エンジニア 3 年目の振り返り：転職・副業・発信",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "エンジニア 3 年目の振り返り：転",
+    "職・副業・発信"
+   ],
+   "engineFont": [
+    "エンジニア 3 年目の振り返り：転",
+    "職・副業・発信"
+   ],
+   "engineEstimate": [
+    "エンジニア 3 年目の振り返り：転",
+    "職・副業・発信"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@17"
+   ]
+  },
+  {
+   "title": "Astro で作ったブログを Cloudflare Pages に移行しました",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "Astro で作ったブログを Cloudflare ",
+    "Pages に移行しました"
+   ],
+   "engineFont": [
+    "Astro で作ったブログを Cloudflare ",
+    "Pages に移行しました"
+   ],
+   "engineEstimate": [
+    "Astro で作ったブログを Cloudflare ",
+    "Pages に移行しました"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "React Server Components を完全に理解した（つもり）",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "React Server Components を完全",
+    "に理解した（つもり）"
+   ],
+   "engineFont": [
+    "React Server Components を完全",
+    "に理解した（つもり）"
+   ],
+   "engineEstimate": [
+    "React Server Components を完全",
+    "に理解した（つもり）"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@27"
+   ]
+  },
+  {
+   "title": "初めての OSS コントリビュートで学んだこと",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "初めての OSS コントリビュートで",
+    "学んだこと"
+   ],
+   "engineFont": [
+    "初めての OSS コントリビュートで",
+    "学んだこと"
+   ],
+   "engineEstimate": [
+    "初めての OSS コントリビュートで",
+    "学んだこと"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "ChatGPT と Claude を比べてコードレビューを任せてみた",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "ChatGPT と Claude を比べてコード",
+    "レビューを任せてみた"
+   ],
+   "engineFont": [
+    "ChatGPT と Claude を比べてコード",
+    "レビューを任せてみた"
+   ],
+   "engineEstimate": [
+    "ChatGPT と Claude を比べてコード",
+    "レビューを任せてみた"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@24"
+   ]
+  },
+  {
+   "title": "Docker Compose だけで開発環境を整える",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "Docker Compose だけで開発環境を",
+    "整える"
+   ],
+   "engineFont": [
+    "Docker Compose だけで開発環境を",
+    "整える"
+   ],
+   "engineEstimate": [
+    "Docker Compose だけで開発環境を",
+    "整える"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "SQLite は本番で使えるのか？ 1 年運用してわかったこと",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "SQLite は本番で使えるのか？ 1 年",
+    "運用してわかったこと"
+   ],
+   "engineFont": [
+    "SQLite は本番で使えるのか？ 1 年",
+    "運用してわかったこと"
+   ],
+   "engineEstimate": [
+    "SQLite は本番で使えるのか？ 1 年",
+    "運用してわかったこと"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@21"
+   ]
+  },
+  {
+   "title": "Zenn の記事を GitHub で管理するときのベストプラクティス",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "Zenn の記事を GitHub で管理する",
+    "ときのベストプラクティス"
+   ],
+   "engineFont": [
+    "Zenn の記事を GitHub で管理する",
+    "ときのベストプラクティス"
+   ],
+   "engineEstimate": [
+    "Zenn の記事を GitHub で管理する",
+    "ときのベストプラクティス"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "iOS アプリのユニバーサルリンクが動かないときに確認すること",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "iOS アプリのユニバーサルリンクが",
+    "動かないときに確認すること"
+   ],
+   "engineFont": [
+    "iOS アプリのユニバーサルリンクが",
+    "動かないときに確認すること"
+   ],
+   "engineEstimate": [
+    "iOS アプリのユニバーサルリンクが",
+    "動かないときに確認すること"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "ポートフォリオサイトをゼロから作り直した",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "ポートフォリオサイトをゼロから作",
+    "り直した"
+   ],
+   "engineFont": [
+    "ポートフォリオサイトをゼロから作",
+    "り直した"
+   ],
+   "engineEstimate": [
+    "ポートフォリオサイトをゼロから作",
+    "り直した"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@16"
+   ]
+  },
+  {
+   "title": "フロントエンドのテスト、どこまで書くべきか問題",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "フロントエンドのテスト、どこまで",
+    "書くべきか問題"
+   ],
+   "engineFont": [
+    "フロントエンドのテスト、どこまで",
+    "書くべきか問題"
+   ],
+   "engineEstimate": [
+    "フロントエンドのテスト、どこまで",
+    "書くべきか問題"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "Vercel の請求額が急に増えたので原因を調べた",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "Vercel の請求額が急に増えたので原",
+    "因を調べた"
+   ],
+   "engineFont": [
+    "Vercel の請求額が急に増えたので原",
+    "因を調べた"
+   ],
+   "engineEstimate": [
+    "Vercel の請求額が急に増えたので原",
+    "因を調べた"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@20"
+   ]
+  },
+  {
+   "title": "Tailwind CSS v4 で変わったこと・変わらなかったこと",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "Tailwind CSS v4 で変わったこと・",
+    "変わらなかったこと"
+   ],
+   "engineFont": [
+    "Tailwind CSS v4 で変わったこと・",
+    "変わらなかったこと"
+   ],
+   "engineEstimate": [
+    "Tailwind CSS v4 で変わったこと・",
+    "変わらなかったこと"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@24"
+   ]
+  },
+  {
+   "title": "新卒エンジニアが最初の半年でやってよかったこと 5 選",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "新卒エンジニアが最初の半年でやっ",
+    "てよかったこと 5 選"
+   ],
+   "engineFont": [
+    "新卒エンジニアが最初の半年でやっ",
+    "てよかったこと 5 選"
+   ],
+   "engineEstimate": [
+    "新卒エンジニアが最初の半年でやっ",
+    "てよかったこと 5 選"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@16"
+   ]
+  },
+  {
+   "title": "Go 言語で並行処理を書くときにハマりがちなポイント",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "Go 言語で並行処理を書くときにハ",
+    "マりがちなポイント"
+   ],
+   "engineFont": [
+    "Go 言語で並行処理を書くときにハ",
+    "マりがちなポイント"
+   ],
+   "engineEstimate": [
+    "Go 言語で並行処理を書くときにハ",
+    "マりがちなポイント"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@17"
+   ]
+  },
+  {
+   "title": "「技術的負債」とどう付き合うか ― チームでの実践",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "「技術的負債」とどう付き合うか ― ",
+    "チームでの実践"
+   ],
+   "engineFont": [
+    "「技術的負債」とどう付き合うか ― ",
+    "チームでの実践"
+   ],
+   "engineEstimate": [
+    "「技術的負債」とどう付き合うか ― ",
+    "チームでの実践"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "キャッシュ戦略を見直したらレスポンスが 3 倍速くなった",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "キャッシュ戦略を見直したらレスポ",
+    "ンスが 3 倍速くなった"
+   ],
+   "engineFont": [
+    "キャッシュ戦略を見直したらレスポ",
+    "ンスが 3 倍速くなった"
+   ],
+   "engineEstimate": [
+    "キャッシュ戦略を見直したらレスポ",
+    "ンスが 3 倍速くなった"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@16"
+   ]
+  },
+  {
+   "title": "ローカル LLM を MacBook で動かしてみた 🚀",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "ローカル LLM を MacBook で動かし",
+    "てみた 🚀"
+   ],
+   "engineFont": [
+    "ローカル LLM を MacBook で動かし",
+    "てみた 🚀"
+   ],
+   "engineEstimate": [
+    "ローカル LLM を MacBook で動かし",
+    "てみた 🚀"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@23"
+   ]
+  },
+  {
+   "title": "はじめてのカンファレンス登壇、準備から当日まで",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "はじめてのカンファレンス登壇、準",
+    "備から当日まで"
+   ],
+   "engineFont": [
+    "はじめてのカンファレンス登壇、準",
+    "備から当日まで"
+   ],
+   "engineEstimate": [
+    "はじめてのカンファレンス登壇、準",
+    "備から当日まで"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@16"
+   ]
+  },
+  {
+   "title": "Web アクセシビリティ対応、まず何から始める？",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "Web アクセシビリティ対応、まず何",
+    "から始める？"
+   ],
+   "engineFont": [
+    "Web アクセシビリティ対応、まず何",
+    "から始める？"
+   ],
+   "engineEstimate": [
+    "Web アクセシビリティ対応、まず",
+    "何から始める？"
+   ],
+   "matchFont": true,
+   "matchEstimate": false,
+   "violationsFont": [
+    "mid_phrase@18"
+   ]
+  },
+  {
+   "title": "Supabase と Prisma を組み合わせるときの注意点",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "Supabase と Prisma を組み合わせ",
+    "るときの注意点"
+   ],
+   "engineFont": [
+    "Supabase と Prisma を組み合わせ",
+    "るときの注意点"
+   ],
+   "engineEstimate": [
+    "Supabase と Prisma を組み合わせ",
+    "るときの注意点"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@24"
+   ]
+  },
+  {
+   "title": "ゆるく続ける個人ブログの運用術",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "ゆるく続ける個人ブログの運用術"
+   ],
+   "engineFont": [
+    "ゆるく続ける個人ブログの運用術"
+   ],
+   "engineEstimate": [
+    "ゆるく続ける個人ブログの運用術"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "デザインシステムを小さく始めるためのチェックリスト",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "デザインシステムを小さく始めるた",
+    "めのチェックリスト"
+   ],
+   "engineFont": [
+    "デザインシステムを小さく始めるた",
+    "めのチェックリスト"
+   ],
+   "engineEstimate": [
+    "デザインシステムを小さく始めるた",
+    "めのチェックリスト"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@16"
+   ]
+  },
+  {
+   "title": "ｴﾝｼﾞﾆｱのための半角カナ処理入門",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "ｴﾝｼﾞﾆｱのための半角カナ処理入門"
+   ],
+   "engineFont": [
+    "ｴﾝｼﾞﾆｱのための半角カナ処理入門"
+   ],
+   "engineEstimate": [
+    "ｴﾝｼﾞﾆｱのための半角カナ処理入門"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "monorepo 移行で CI が 40 分から 8 分になるまで",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "monorepo 移行で CI が 40 分から 8 ",
+    "分になるまで"
+   ],
+   "engineFont": [
+    "monorepo 移行で CI が 40 分から 8 ",
+    "分になるまで"
+   ],
+   "engineEstimate": [
+    "monorepo 移行で CI が 40 分から 8 ",
+    "分になるまで"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "コードレビューで「LGTM」と言う前に見ていること",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "コードレビューで「LGTM」と言う",
+    "前に見ていること"
+   ],
+   "engineFont": [
+    "コードレビューで「LGTM」と言う",
+    "前に見ていること"
+   ],
+   "engineEstimate": [
+    "コードレビューで「LGTM」と言う",
+    "前に見ていること"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@17"
+   ]
+  },
+  {
+   "title": "Kubernetes を使わないという選択肢",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "Kubernetes を使わないという選択",
+    "肢"
+   ],
+   "engineFont": [
+    "Kubernetes を使わないという選択",
+    "肢"
+   ],
+   "engineEstimate": [
+    "Kubernetes を使わないという選択",
+    "肢"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@21"
+   ]
+  },
+  {
+   "title": "朝活で技術書を 1 年に 50 冊読んだ方法",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "朝活で技術書を 1 年に 50 冊読んだ",
+    "方法"
+   ],
+   "engineFont": [
+    "朝活で技術書を 1 年に 50 冊読んだ",
+    "方法"
+   ],
+   "engineEstimate": [
+    "朝活で技術書を 1 年に 50 冊読んだ",
+    "方法"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "オブザーバビリティって結局なに？ ログ・メトリクス・トレース入門",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "オブザーバビリティって結局なに？ ",
+    "ログ・メトリクス・トレース入門"
+   ],
+   "engineFont": [
+    "オブザーバビリティって結局なに？ ",
+    "ログ・メトリクス・トレース入門"
+   ],
+   "engineEstimate": [
+    "オブザーバビリティって結局なに？ ",
+    "ログ・メトリクス・トレース入門"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "Flutter と React Native、2026 年に選ぶならどっち？",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "Flutter と React Native、2026 年に",
+    "選ぶならどっち？"
+   ],
+   "engineFont": [
+    "Flutter と React Native、2026 年に",
+    "選ぶならどっち？"
+   ],
+   "engineEstimate": [
+    "Flutter と React Native、2026 年に",
+    "選ぶならどっち？"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "ドメイン駆動設計を小さなプロジェクトに取り入れてみた",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "ドメイン駆動設計を小さなプロジェ",
+    "クトに取り入れてみた"
+   ],
+   "engineFont": [
+    "ドメイン駆動設計を小さなプロジェ",
+    "クトに取り入れてみた"
+   ],
+   "engineEstimate": [
+    "ドメイン駆動設計を小さなプロジェ",
+    "クトに取り入れてみた"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@16"
+   ]
+  },
+  {
+   "title": "WebAssembly でブラウザ上に画像処理エンジンを載せる",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "WebAssembly でブラウザ上に画像",
+    "処理エンジンを載せる"
+   ],
+   "engineFont": [
+    "WebAssembly でブラウザ上に画像",
+    "処理エンジンを載せる"
+   ],
+   "engineEstimate": [
+    "WebAssembly でブラウザ上に画像",
+    "処理エンジンを載せる"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@21"
+   ]
+  },
+  {
+   "title": "エラーメッセージを読む力を鍛える",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "エラーメッセージを読む力を鍛える"
+   ],
+   "engineFont": [
+    "エラーメッセージを読む力を鍛える"
+   ],
+   "engineEstimate": [
+    "エラーメッセージを読む力を鍛える"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "😇 本番 DB を消しかけた日のこと",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "😇 本番 DB を消しかけた日のこと"
+   ],
+   "engineFont": [
+    "😇 本番 DB を消しかけた日のこと"
+   ],
+   "engineEstimate": [
+    "😇 本番 DB を消しかけた日のこと"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "Next.js 15 の App Router で OGP 画像を動的に生成する方法",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "Next.js 15 の App Router で OGP 画像を動",
+    "的に生成する方法"
+   ],
+   "engineFont": [
+    "Next.js 15 の App Router で OGP 画像を動",
+    "的に生成する方法"
+   ],
+   "engineEstimate": [
+    "Next.js 15 の App Router で OGP 画像を動",
+    "的に生成する方法"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@34"
+   ]
+  },
+  {
+   "title": "TypeScript 7 へのアップグレードで踏んだ地雷まとめ",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "TypeScript 7 へのアップグレードで踏んだ",
+    "地雷まとめ"
+   ],
+   "engineFont": [
+    "TypeScript 7 へのアップグレードで踏んだ",
+    "地雷まとめ"
+   ],
+   "engineEstimate": [
+    "TypeScript 7 へのアップグレードで踏んだ",
+    "地雷まとめ"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "個人開発で月 10 万円を稼ぐまでにやったこと全部",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "個人開発で月 10 万円を稼ぐまでにやった",
+    "こと全部"
+   ],
+   "engineFont": [
+    "個人開発で月 10 万円を稼ぐまでにやった",
+    "こと全部"
+   ],
+   "engineEstimate": [
+    "個人開発で月 10 万円を稼ぐまでにやった",
+    "こと全部"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "【保存版】GitHub Actions のキャッシュを使いこなす",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "【保存版】GitHub Actions のキャッシュを",
+    "使いこなす"
+   ],
+   "engineFont": [
+    "【保存版】GitHub Actions のキャッシュを",
+    "使いこなす"
+   ],
+   "engineEstimate": [
+    "【保存版】GitHub Actions のキャッシュを",
+    "使いこなす"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "「なんとなく」で書いていた useEffect をやめた話",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "「なんとなく」で書いていた useEffect を",
+    "やめた話"
+   ],
+   "engineFont": [
+    "「なんとなく」で書いていた useEffect を",
+    "やめた話"
+   ],
+   "engineEstimate": [
+    "「なんとなく」で書いていた useEffect を",
+    "やめた話"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "Rust で CLI ツールを作って npm に公開してみた",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "Rust で CLI ツールを作って npm に公開し",
+    "てみた"
+   ],
+   "engineFont": [
+    "Rust で CLI ツールを作って npm に公開し",
+    "てみた"
+   ],
+   "engineEstimate": [
+    "Rust で CLI ツールを作って npm に公開し",
+    "てみた"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@27"
+   ]
+  },
+  {
+   "title": "エンジニア 3 年目の振り返り：転職・副業・発信",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "エンジニア 3 年目の振り返り：転職・副",
+    "業・発信"
+   ],
+   "engineFont": [
+    "エンジニア 3 年目の振り返り：転職・副",
+    "業・発信"
+   ],
+   "engineEstimate": [
+    "エンジニア 3 年目の振り返り：転職・副",
+    "業・発信"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@20"
+   ]
+  },
+  {
+   "title": "Astro で作ったブログを Cloudflare Pages に移行しました",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "Astro で作ったブログを Cloudflare Pages ",
+    "に移行しました"
+   ],
+   "engineFont": [
+    "Astro で作ったブログを Cloudflare Pages ",
+    "に移行しました"
+   ],
+   "engineEstimate": [
+    "Astro で作ったブログを Cloudflare Pages ",
+    "に移行しました"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "React Server Components を完全に理解した（つもり）",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "React Server Components を完全に理解し",
+    "た（つもり）"
+   ],
+   "engineFont": [
+    "React Server Components を完全に理解し",
+    "た（つもり）"
+   ],
+   "engineEstimate": [
+    "React Server Components を完全に理解し",
+    "た（つもり）"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@31"
+   ]
+  },
+  {
+   "title": "初めての OSS コントリビュートで学んだこと",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "初めての OSS コントリビュートで学んだ",
+    "こと"
+   ],
+   "engineFont": [
+    "初めての OSS コントリビュートで学んだ",
+    "こと"
+   ],
+   "engineEstimate": [
+    "初めての OSS コントリビュートで学んだ",
+    "こと"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "ChatGPT と Claude を比べてコードレビューを任せてみた",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "ChatGPT と Claude を比べてコードレ",
+    "ビューを任せてみた"
+   ],
+   "engineFont": [
+    "ChatGPT と Claude を比べてコードレ",
+    "ビューを任せてみた"
+   ],
+   "engineEstimate": [
+    "ChatGPT と Claude を比べてコードレ",
+    "ビューを任せてみた"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@25"
+   ]
+  },
+  {
+   "title": "Docker Compose だけで開発環境を整える",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "Docker Compose だけで開発環境を整える"
+   ],
+   "engineFont": [
+    "Docker Compose だけで開発環境を整える"
+   ],
+   "engineEstimate": [
+    "Docker Compose だけで開発環境を整える"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "SQLite は本番で使えるのか？ 1 年運用してわかったこと",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "SQLite は本番で使えるのか？ 1 年運用し",
+    "てわかったこと"
+   ],
+   "engineFont": [
+    "SQLite は本番で使えるのか？ 1 年運用し",
+    "てわかったこと"
+   ],
+   "engineEstimate": [
+    "SQLite は本番で使えるのか？ 1 年運用し",
+    "てわかったこと"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@24"
+   ]
+  },
+  {
+   "title": "Zenn の記事を GitHub で管理するときのベストプラクティス",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "Zenn の記事を GitHub で管理するときの",
+    "ベストプラクティス"
+   ],
+   "engineFont": [
+    "Zenn の記事を GitHub で管理するときの",
+    "ベストプラクティス"
+   ],
+   "engineEstimate": [
+    "Zenn の記事を GitHub で管理するときの",
+    "ベストプラクティス"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "iOS アプリのユニバーサルリンクが動かないときに確認すること",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "iOS アプリのユニバーサルリンクが動かな",
+    "いときに確認すること"
+   ],
+   "engineFont": [
+    "iOS アプリのユニバーサルリンクが動かな",
+    "いときに確認すること"
+   ],
+   "engineEstimate": [
+    "iOS アプリのユニバーサルリンクが動かな",
+    "いときに確認すること"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@21"
+   ]
+  },
+  {
+   "title": "ポートフォリオサイトをゼロから作り直した",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "ポートフォリオサイトをゼロから作り直し",
+    "た"
+   ],
+   "engineFont": [
+    "ポートフォリオサイトをゼロから作り直し",
+    "た"
+   ],
+   "engineEstimate": [
+    "ポートフォリオサイトをゼロから作り直し",
+    "た"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@19"
+   ]
+  },
+  {
+   "title": "フロントエンドのテスト、どこまで書くべきか問題",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "フロントエンドのテスト、どこまで書くべ",
+    "きか問題"
+   ],
+   "engineFont": [
+    "フロントエンドのテスト、どこまで書くべ",
+    "きか問題"
+   ],
+   "engineEstimate": [
+    "フロントエンドのテスト、どこまで書くべ",
+    "きか問題"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@19"
+   ]
+  },
+  {
+   "title": "Vercel の請求額が急に増えたので原因を調べた",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "Vercel の請求額が急に増えたので原因を調",
+    "べた"
+   ],
+   "engineFont": [
+    "Vercel の請求額が急に増えたので原因を調",
+    "べた"
+   ],
+   "engineEstimate": [
+    "Vercel の請求額が急に増えたので原因を調",
+    "べた"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@23"
+   ]
+  },
+  {
+   "title": "Tailwind CSS v4 で変わったこと・変わらなかったこと",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "Tailwind CSS v4 で変わったこと・変わら",
+    "なかったこと"
+   ],
+   "engineFont": [
+    "Tailwind CSS v4 で変わったこと・変わら",
+    "なかったこと"
+   ],
+   "engineEstimate": [
+    "Tailwind CSS v4 で変わったこと・変わら",
+    "なかったこと"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@27"
+   ]
+  },
+  {
+   "title": "新卒エンジニアが最初の半年でやってよかったこと 5 選",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "新卒エンジニアが最初の半年でやってよ",
+    "かったこと 5 選"
+   ],
+   "engineFont": [
+    "新卒エンジニアが最初の半年でやってよ",
+    "かったこと 5 選"
+   ],
+   "engineEstimate": [
+    "新卒エンジニアが最初の半年でやってよ",
+    "かったこと 5 選"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@18"
+   ]
+  },
+  {
+   "title": "Go 言語で並行処理を書くときにハマりがちなポイント",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "Go 言語で並行処理を書くときにハマりが",
+    "ちなポイント"
+   ],
+   "engineFont": [
+    "Go 言語で並行処理を書くときにハマりが",
+    "ちなポイント"
+   ],
+   "engineEstimate": [
+    "Go 言語で並行処理を書くときにハマりが",
+    "ちなポイント"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@20"
+   ]
+  },
+  {
+   "title": "「技術的負債」とどう付き合うか ― チームでの実践",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "「技術的負債」とどう付き合うか ― チー",
+    "ムでの実践"
+   ],
+   "engineFont": [
+    "「技術的負債」とどう付き合うか ― チー",
+    "ムでの実践"
+   ],
+   "engineEstimate": [
+    "「技術的負債」とどう付き合うか ― チー",
+    "ムでの実践"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@20"
+   ]
+  },
+  {
+   "title": "キャッシュ戦略を見直したらレスポンスが 3 倍速くなった",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "キャッシュ戦略を見直したらレスポンスが ",
+    "3 倍速くなった"
+   ],
+   "engineFont": [
+    "キャッシュ戦略を見直したらレスポンスが ",
+    "3 倍速くなった"
+   ],
+   "engineEstimate": [
+    "キャッシュ戦略を見直したらレスポンスが ",
+    "3 倍速くなった"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "ローカル LLM を MacBook で動かしてみた 🚀",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "ローカル LLM を MacBook で動かしてみた ",
+    "🚀"
+   ],
+   "engineFont": [
+    "ローカル LLM を MacBook で動かしてみた ",
+    "🚀"
+   ],
+   "engineEstimate": [
+    "ローカル LLM を MacBook で動かしてみた ",
+    "🚀"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "はじめてのカンファレンス登壇、準備から当日まで",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "はじめてのカンファレンス登壇、準備から",
+    "当日まで"
+   ],
+   "engineFont": [
+    "はじめてのカンファレンス登壇、準備から",
+    "当日まで"
+   ],
+   "engineEstimate": [
+    "はじめてのカンファレンス登壇、準備から",
+    "当日まで"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "Web アクセシビリティ対応、まず何から始める？",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "Web アクセシビリティ対応、まず何から始",
+    "める？"
+   ],
+   "engineFont": [
+    "Web アクセシビリティ対応、まず何から始",
+    "める？"
+   ],
+   "engineEstimate": [
+    "Web アクセシビリティ対応、まず何から始",
+    "める？"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@21"
+   ]
+  },
+  {
+   "title": "Supabase と Prisma を組み合わせるときの注意点",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "Supabase と Prisma を組み合わせるとき",
+    "の注意点"
+   ],
+   "engineFont": [
+    "Supabase と Prisma を組み合わせるとき",
+    "の注意点"
+   ],
+   "engineEstimate": [
+    "Supabase と Prisma を組み合わせるとき",
+    "の注意点"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@27"
+   ]
+  },
+  {
+   "title": "ゆるく続ける個人ブログの運用術",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "ゆるく続ける個人ブログの運用術"
+   ],
+   "engineFont": [
+    "ゆるく続ける個人ブログの運用術"
+   ],
+   "engineEstimate": [
+    "ゆるく続ける個人ブログの運用術"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "デザインシステムを小さく始めるためのチェックリスト",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "デザインシステムを小さく始めるための",
+    "チェックリスト"
+   ],
+   "engineFont": [
+    "デザインシステムを小さく始めるための",
+    "チェックリスト"
+   ],
+   "engineEstimate": [
+    "デザインシステムを小さく始めるための",
+    "チェックリスト"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "ｴﾝｼﾞﾆｱのための半角カナ処理入門",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "ｴﾝｼﾞﾆｱのための半角カナ処理入門"
+   ],
+   "engineFont": [
+    "ｴﾝｼﾞﾆｱのための半角カナ処理入門"
+   ],
+   "engineEstimate": [
+    "ｴﾝｼﾞﾆｱのための半角カナ処理入門"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "monorepo 移行で CI が 40 分から 8 分になるまで",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "monorepo 移行で CI が 40 分から 8 分にな",
+    "るまで"
+   ],
+   "engineFont": [
+    "monorepo 移行で CI が 40 分から 8 分にな",
+    "るまで"
+   ],
+   "engineEstimate": [
+    "monorepo 移行で CI が 40 分から 8 分にな",
+    "るまで"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@30"
+   ]
+  },
+  {
+   "title": "コードレビューで「LGTM」と言う前に見ていること",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "コードレビューで「LGTM」と言う前に見",
+    "ていること"
+   ],
+   "engineFont": [
+    "コードレビューで「LGTM」と言う前に見",
+    "ていること"
+   ],
+   "engineEstimate": [
+    "コードレビューで「LGTM」と言う前に見",
+    "ていること"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@20"
+   ]
+  },
+  {
+   "title": "Kubernetes を使わないという選択肢",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "Kubernetes を使わないという選択肢"
+   ],
+   "engineFont": [
+    "Kubernetes を使わないという選択肢"
+   ],
+   "engineEstimate": [
+    "Kubernetes を使わないという選択肢"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "朝活で技術書を 1 年に 50 冊読んだ方法",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "朝活で技術書を 1 年に 50 冊読んだ方法"
+   ],
+   "engineFont": [
+    "朝活で技術書を 1 年に 50 冊読んだ方法"
+   ],
+   "engineEstimate": [
+    "朝活で技術書を 1 年に 50 冊読んだ方法"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "オブザーバビリティって結局なに？ ログ・メトリクス・トレース入門",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "オブザーバビリティって結局なに？ ログ・",
+    "メトリクス・トレース入門"
+   ],
+   "engineFont": [
+    "オブザーバビリティって結局なに？ ログ・",
+    "メトリクス・トレース入門"
+   ],
+   "engineEstimate": [
+    "オブザーバビリティって結局なに？ ログ・",
+    "メトリクス・トレース入門"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@20"
+   ]
+  },
+  {
+   "title": "Flutter と React Native、2026 年に選ぶならどっち？",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "Flutter と React Native、2026 年に選ぶな",
+    "らどっち？"
+   ],
+   "engineFont": [
+    "Flutter と React Native、2026 年に選ぶな",
+    "らどっち？"
+   ],
+   "engineEstimate": [
+    "Flutter と React Native、2026 年に選ぶな",
+    "らどっち？"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@33"
+   ]
+  },
+  {
+   "title": "ドメイン駆動設計を小さなプロジェクトに取り入れてみた",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "ドメイン駆動設計を小さなプロジェクトに",
+    "取り入れてみた"
+   ],
+   "engineFont": [
+    "ドメイン駆動設計を小さなプロジェクトに",
+    "取り入れてみた"
+   ],
+   "engineEstimate": [
+    "ドメイン駆動設計を小さなプロジェクトに",
+    "取り入れてみた"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "WebAssembly でブラウザ上に画像処理エンジンを載せる",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "WebAssembly でブラウザ上に画像処理エ",
+    "ンジンを載せる"
+   ],
+   "engineFont": [
+    "WebAssembly でブラウザ上に画像処理エ",
+    "ンジンを載せる"
+   ],
+   "engineEstimate": [
+    "WebAssembly でブラウザ上に画像処理エ",
+    "ンジンを載せる"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@24"
+   ]
+  },
+  {
+   "title": "エラーメッセージを読む力を鍛える",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "エラーメッセージを読む力を鍛える"
+   ],
+   "engineFont": [
+    "エラーメッセージを読む力を鍛える"
+   ],
+   "engineEstimate": [
+    "エラーメッセージを読む力を鍛える"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "😇 本番 DB を消しかけた日のこと",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "😇 本番 DB を消しかけた日のこと"
+   ],
+   "engineFont": [
+    "😇 本番 DB を消しかけた日のこと"
+   ],
+   "engineEstimate": [
+    "😇 本番 DB を消しかけた日のこと"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "Next.js 15 の App Router で OGP 画像を動的に生成する方法",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "Next.js 15 の App Router で ",
+    "OGP 画像を動的に生成する方",
+    "法"
+   ],
+   "engineFont": [
+    "Next.js 15 の App Router で ",
+    "OGP 画像を動的に生成する方",
+    "法"
+   ],
+   "engineEstimate": [
+    "Next.js 15 の App Router で ",
+    "OGP 画像を動的に生成する方",
+    "法"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@41"
+   ]
+  },
+  {
+   "title": "TypeScript 7 へのアップグレードで踏んだ地雷まとめ",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "TypeScript 7 へのアップグ",
+    "レードで踏んだ地雷まとめ"
+   ],
+   "engineFont": [
+    "TypeScript 7 へのアップグ",
+    "レードで踏んだ地雷まとめ"
+   ],
+   "engineEstimate": [
+    "TypeScript 7 へのアップグ",
+    "レードで踏んだ地雷まとめ"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@19"
+   ]
+  },
+  {
+   "title": "個人開発で月 10 万円を稼ぐまでにやったこと全部",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "個人開発で月 10 万円を稼ぐま",
+    "でにやったこと全部"
+   ],
+   "engineFont": [
+    "個人開発で月 10 万円を稼ぐま",
+    "でにやったこと全部"
+   ],
+   "engineEstimate": [
+    "個人開発で月 10 万円を稼ぐま",
+    "でにやったこと全部"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@16"
+   ]
+  },
+  {
+   "title": "【保存版】GitHub Actions のキャッシュを使いこなす",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "【保存版】GitHub Actions の",
+    "キャッシュを使いこなす"
+   ],
+   "engineFont": [
+    "【保存版】GitHub Actions の",
+    "キャッシュを使いこなす"
+   ],
+   "engineEstimate": [
+    "【保存版】GitHub Actions の",
+    "キャッシュを使いこなす"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "「なんとなく」で書いていた useEffect をやめた話",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "「なんとなく」で書いていた ",
+    "useEffect をやめた話"
+   ],
+   "engineFont": [
+    "「なんとなく」で書いていた ",
+    "useEffect をやめた話"
+   ],
+   "engineEstimate": [
+    "「なんとなく」で書いていた ",
+    "useEffect をやめた話"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "Rust で CLI ツールを作って npm に公開してみた",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "Rust で CLI ツールを作って ",
+    "npm に公開してみた"
+   ],
+   "engineFont": [
+    "Rust で CLI ツールを作って ",
+    "npm に公開してみた"
+   ],
+   "engineEstimate": [
+    "Rust で CLI ツールを作って ",
+    "npm に公開してみた"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "エンジニア 3 年目の振り返り：転職・副業・発信",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "エンジニア 3 年目の振り返",
+    "り：転職・副業・発信"
+   ],
+   "engineFont": [
+    "エンジニア 3 年目の振り返",
+    "り：転職・副業・発信"
+   ],
+   "engineEstimate": [
+    "エンジニア 3 年目の振り返",
+    "り：転職・副業・発信"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@14"
+   ]
+  },
+  {
+   "title": "Astro で作ったブログを Cloudflare Pages に移行しました",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "Astro で作ったブログを ",
+    "Cloudflare Pages に移行しま",
+    "した"
+   ],
+   "engineFont": [
+    "Astro で作ったブログを ",
+    "Cloudflare Pages に移行しま",
+    "した"
+   ],
+   "engineEstimate": [
+    "Astro で作ったブログを ",
+    "Cloudflare Pages に移行しま",
+    "した"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@37"
+   ]
+  },
+  {
+   "title": "React Server Components を完全に理解した（つもり）",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "React Server Components を",
+    "完全に理解した（つもり）"
+   ],
+   "engineFont": [
+    "React Server Components を",
+    "完全に理解した（つもり）"
+   ],
+   "engineEstimate": [
+    "React Server Components を",
+    "完全に理解した（つもり）"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "初めての OSS コントリビュートで学んだこと",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "初めての OSS コントリビュー",
+    "トで学んだこと"
+   ],
+   "engineFont": [
+    "初めての OSS コントリビュー",
+    "トで学んだこと"
+   ],
+   "engineEstimate": [
+    "初めての OSS コントリビュー",
+    "トで学んだこと"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@16"
+   ]
+  },
+  {
+   "title": "ChatGPT と Claude を比べてコードレビューを任せてみた",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "ChatGPT と Claude を比べて",
+    "コードレビューを任せてみた"
+   ],
+   "engineFont": [
+    "ChatGPT と Claude を比べて",
+    "コードレビューを任せてみた"
+   ],
+   "engineEstimate": [
+    "ChatGPT と Claude を比べて",
+    "コードレビューを任せてみた"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "Docker Compose だけで開発環境を整える",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "Docker Compose だけで開発",
+    "環境を整える"
+   ],
+   "engineFont": [
+    "Docker Compose だけで開発",
+    "環境を整える"
+   ],
+   "engineEstimate": [
+    "Docker Compose だけで開発",
+    "環境を整える"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@20"
+   ]
+  },
+  {
+   "title": "SQLite は本番で使えるのか？ 1 年運用してわかったこと",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "SQLite は本番で使えるのか？ ",
+    "1 年運用してわかったこと"
+   ],
+   "engineFont": [
+    "SQLite は本番で使えるのか？ ",
+    "1 年運用してわかったこと"
+   ],
+   "engineEstimate": [
+    "SQLite は本番で使えるのか？ ",
+    "1 年運用してわかったこと"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "Zenn の記事を GitHub で管理するときのベストプラクティス",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "Zenn の記事を GitHub で管理",
+    "するときのベストプラクティ",
+    "ス"
+   ],
+   "engineFont": [
+    "Zenn の記事を GitHub で管理",
+    "するときのベストプラクティ",
+    "ス"
+   ],
+   "engineEstimate": [
+    "Zenn の記事を GitHub で管理",
+    "するときのベストプラクティ",
+    "ス"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@20",
+    "mid_phrase@33"
+   ]
+  },
+  {
+   "title": "iOS アプリのユニバーサルリンクが動かないときに確認すること",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "iOS アプリのユニバーサルリン",
+    "クが動かないときに確認する",
+    "こと"
+   ],
+   "engineFont": [
+    "iOS アプリのユニバーサルリン",
+    "クが動かないときに確認する",
+    "こと"
+   ],
+   "engineEstimate": [
+    "iOS アプリのユニバーサルリン",
+    "クが動かないときに確認する",
+    "こと"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@16"
+   ]
+  },
+  {
+   "title": "ポートフォリオサイトをゼロから作り直した",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "ポートフォリオサイトをゼロ",
+    "から作り直した"
+   ],
+   "engineFont": [
+    "ポートフォリオサイトをゼロ",
+    "から作り直した"
+   ],
+   "engineEstimate": [
+    "ポートフォリオサイトをゼロ",
+    "から作り直した"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@13"
+   ]
+  },
+  {
+   "title": "フロントエンドのテスト、どこまで書くべきか問題",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "フロントエンドのテスト、ど",
+    "こまで書くべきか問題"
+   ],
+   "engineFont": [
+    "フロントエンドのテスト、ど",
+    "こまで書くべきか問題"
+   ],
+   "engineEstimate": [
+    "フロントエンドのテスト、ど",
+    "こまで書くべきか問題"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@13"
+   ]
+  },
+  {
+   "title": "Vercel の請求額が急に増えたので原因を調べた",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "Vercel の請求額が急に増えた",
+    "ので原因を調べた"
+   ],
+   "engineFont": [
+    "Vercel の請求額が急に増えた",
+    "ので原因を調べた"
+   ],
+   "engineEstimate": [
+    "Vercel の請求額が急に増えた",
+    "ので原因を調べた"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@17"
+   ]
+  },
+  {
+   "title": "Tailwind CSS v4 で変わったこと・変わらなかったこと",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "Tailwind CSS v4 で変わったこ",
+    "と・変わらなかったこと"
+   ],
+   "engineFont": [
+    "Tailwind CSS v4 で変わったこ",
+    "と・変わらなかったこと"
+   ],
+   "engineEstimate": [
+    "Tailwind CSS v4 で変わったこ",
+    "と・変わらなかったこと"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@22"
+   ]
+  },
+  {
+   "title": "新卒エンジニアが最初の半年でやってよかったこと 5 選",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "新卒エンジニアが最初の半年",
+    "でやってよかったこと 5 選"
+   ],
+   "engineFont": [
+    "新卒エンジニアが最初の半年",
+    "でやってよかったこと 5 選"
+   ],
+   "engineEstimate": [
+    "新卒エンジニアが最初の半年",
+    "でやってよかったこと 5 選"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@13"
+   ]
+  },
+  {
+   "title": "Go 言語で並行処理を書くときにハマりがちなポイント",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "Go 言語で並行処理を書くとき",
+    "にハマりがちなポイント"
+   ],
+   "engineFont": [
+    "Go 言語で並行処理を書くとき",
+    "にハマりがちなポイント"
+   ],
+   "engineEstimate": [
+    "Go 言語で並行処理を書くとき",
+    "にハマりがちなポイント"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@15"
+   ]
+  },
+  {
+   "title": "「技術的負債」とどう付き合うか ― チームでの実践",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "「技術的負債」とどう付き合",
+    "うか ― チームでの実践"
+   ],
+   "engineFont": [
+    "「技術的負債」とどう付き合",
+    "うか ― チームでの実践"
+   ],
+   "engineEstimate": [
+    "「技術的負債」とどう付き合",
+    "うか ― チームでの実践"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@13"
+   ]
+  },
+  {
+   "title": "キャッシュ戦略を見直したらレスポンスが 3 倍速くなった",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "キャッシュ戦略を見直したら",
+    "レスポンスが 3 倍速くなった"
+   ],
+   "engineFont": [
+    "キャッシュ戦略を見直したら",
+    "レスポンスが 3 倍速くなった"
+   ],
+   "engineEstimate": [
+    "キャッシュ戦略を見直したら",
+    "レスポンスが 3 倍速くなった"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "ローカル LLM を MacBook で動かしてみた 🚀",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "ローカル LLM を MacBook で",
+    "動かしてみた 🚀"
+   ],
+   "engineFont": [
+    "ローカル LLM を MacBook で",
+    "動かしてみた 🚀"
+   ],
+   "engineEstimate": [
+    "ローカル LLM を MacBook で",
+    "動かしてみた 🚀"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "はじめてのカンファレンス登壇、準備から当日まで",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "はじめてのカンファレンス登",
+    "壇、準備から当日まで"
+   ],
+   "engineFont": [
+    "はじめてのカンファレンス登",
+    "壇、準備から当日まで"
+   ],
+   "engineEstimate": [
+    "はじめてのカンファレンス登",
+    "壇、準備から当日まで"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@13"
+   ]
+  },
+  {
+   "title": "Web アクセシビリティ対応、まず何から始める？",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "Web アクセシビリティ対応、",
+    "まず何から始める？"
+   ],
+   "engineFont": [
+    "Web アクセシビリティ対応、",
+    "まず何から始める？"
+   ],
+   "engineEstimate": [
+    "Web アクセシビリティ対応、",
+    "まず何から始める？"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "Supabase と Prisma を組み合わせるときの注意点",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "Supabase と Prisma を組み合",
+    "わせるときの注意点"
+   ],
+   "engineFont": [
+    "Supabase と Prisma を組み合",
+    "わせるときの注意点"
+   ],
+   "engineEstimate": [
+    "Supabase と Prisma を組み合",
+    "わせるときの注意点"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@22"
+   ]
+  },
+  {
+   "title": "ゆるく続ける個人ブログの運用術",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "ゆるく続ける個人ブログの運",
+    "用術"
+   ],
+   "engineFont": [
+    "ゆるく続ける個人ブログの運",
+    "用術"
+   ],
+   "engineEstimate": [
+    "ゆるく続ける個人ブログの運",
+    "用術"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@13"
+   ]
+  },
+  {
+   "title": "デザインシステムを小さく始めるためのチェックリスト",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "デザインシステムを小さく始",
+    "めるためのチェックリスト"
+   ],
+   "engineFont": [
+    "デザインシステムを小さく始",
+    "めるためのチェックリスト"
+   ],
+   "engineEstimate": [
+    "デザインシステムを小さく始",
+    "めるためのチェックリスト"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@13"
+   ]
+  },
+  {
+   "title": "ｴﾝｼﾞﾆｱのための半角カナ処理入門",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "ｴﾝｼﾞﾆｱのための半角カナ処理",
+    "入門"
+   ],
+   "engineFont": [
+    "ｴﾝｼﾞﾆｱのための半角カナ処理",
+    "入門"
+   ],
+   "engineEstimate": [
+    "ｴﾝｼﾞﾆｱのための半角カナ処理入",
+    "門"
+   ],
+   "matchFont": true,
+   "matchEstimate": false,
+   "violationsFont": [
+    "mid_phrase@16"
+   ]
+  },
+  {
+   "title": "monorepo 移行で CI が 40 分から 8 分になるまで",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "monorepo 移行で CI が 40 分",
+    "から 8 分になるまで"
+   ],
+   "engineFont": [
+    "monorepo 移行で CI が 40 分",
+    "から 8 分になるまで"
+   ],
+   "engineEstimate": [
+    "monorepo 移行で CI が 40 分",
+    "から 8 分になるまで"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@22"
+   ]
+  },
+  {
+   "title": "コードレビューで「LGTM」と言う前に見ていること",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "コードレビューで「LGTM」と",
+    "言う前に見ていること"
+   ],
+   "engineFont": [
+    "コードレビューで「LGTM」と",
+    "言う前に見ていること"
+   ],
+   "engineEstimate": [
+    "コードレビューで「LGTM」と",
+    "言う前に見ていること"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "Kubernetes を使わないという選択肢",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "Kubernetes を使わないという",
+    "選択肢"
+   ],
+   "engineFont": [
+    "Kubernetes を使わないという",
+    "選択肢"
+   ],
+   "engineEstimate": [
+    "Kubernetes を使わないという",
+    "選択肢"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "朝活で技術書を 1 年に 50 冊読んだ方法",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "朝活で技術書を 1 年に 50 冊読",
+    "んだ方法"
+   ],
+   "engineFont": [
+    "朝活で技術書を 1 年に 50 冊読",
+    "んだ方法"
+   ],
+   "engineEstimate": [
+    "朝活で技術書を 1 年に 50 冊読",
+    "んだ方法"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@18"
+   ]
+  },
+  {
+   "title": "オブザーバビリティって結局なに？ ログ・メトリクス・トレース入門",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "オブザーバビリティって結局",
+    "なに？ ログ・メトリクス・ト",
+    "レース入門"
+   ],
+   "engineFont": [
+    "オブザーバビリティって結局",
+    "なに？ ログ・メトリクス・ト",
+    "レース入門"
+   ],
+   "engineEstimate": [
+    "オブザーバビリティって結局",
+    "なに？ ログ・メトリクス・ト",
+    "レース入門"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@13",
+    "mid_phrase@27"
+   ]
+  },
+  {
+   "title": "Flutter と React Native、2026 年に選ぶならどっち？",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "Flutter と React Native、2026 ",
+    "年に選ぶならどっち？"
+   ],
+   "engineFont": [
+    "Flutter と React Native、2026 ",
+    "年に選ぶならどっち？"
+   ],
+   "engineEstimate": [
+    "Flutter と React Native、2026 ",
+    "年に選ぶならどっち？"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "ドメイン駆動設計を小さなプロジェクトに取り入れてみた",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "ドメイン駆動設計を小さなプ",
+    "ロジェクトに取り入れてみた"
+   ],
+   "engineFont": [
+    "ドメイン駆動設計を小さなプ",
+    "ロジェクトに取り入れてみた"
+   ],
+   "engineEstimate": [
+    "ドメイン駆動設計を小さなプ",
+    "ロジェクトに取り入れてみた"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@13"
+   ]
+  },
+  {
+   "title": "WebAssembly でブラウザ上に画像処理エンジンを載せる",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "WebAssembly でブラウザ上に",
+    "画像処理エンジンを載せる"
+   ],
+   "engineFont": [
+    "WebAssembly でブラウザ上に",
+    "画像処理エンジンを載せる"
+   ],
+   "engineEstimate": [
+    "WebAssembly でブラウザ上に",
+    "画像処理エンジンを載せる"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "エラーメッセージを読む力を鍛える",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "エラーメッセージを読む力を",
+    "鍛える"
+   ],
+   "engineFont": [
+    "エラーメッセージを読む力を",
+    "鍛える"
+   ],
+   "engineEstimate": [
+    "エラーメッセージを読む力を",
+    "鍛える"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "😇 本番 DB を消しかけた日のこと",
+   "wordBreak": "normal",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "😇 本番 DB を消しかけた日の",
+    "こと"
+   ],
+   "engineFont": [
+    "😇 本番 DB を消しかけた日の",
+    "こと"
+   ],
+   "engineEstimate": [
+    "😇 本番 DB を消しかけた日の",
+    "こと"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "Next.js 15 の App Router で OGP 画像を動的に生成する方法",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "Next.js 15 の App Router で OGP 画",
+    "像を動的に生成する方法"
+   ],
+   "engineFont": [
+    "Next.js 15 の App Router で OGP 画",
+    "像を動的に生成する方法"
+   ],
+   "engineEstimate": [
+    "Next.js 15 の App Router で OGP 画",
+    "像を動的に生成する方法"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@31"
+   ]
+  },
+  {
+   "title": "TypeScript 7 へのアップグレードで踏んだ地雷まとめ",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "TypeScript 7 へのアップグレードで",
+    "踏んだ地雷まとめ"
+   ],
+   "engineFont": [
+    "TypeScript 7 へのアップグレードで",
+    "踏んだ地雷まとめ"
+   ],
+   "engineEstimate": [
+    "TypeScript 7 へのアップグレードで",
+    "踏んだ地雷まとめ"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "個人開発で月 10 万円を稼ぐまでにやったこと全部",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "個人開発で月 10 万円を稼ぐまでに",
+    "やったこと全部"
+   ],
+   "engineFont": [
+    "個人開発で月 10 万円を稼ぐまでに",
+    "やったこと全部"
+   ],
+   "engineEstimate": [
+    "個人開発で月 10 万円を稼ぐまでに",
+    "やったこと全部"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "【保存版】GitHub Actions のキャッシュを使いこなす",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "【保存版】GitHub Actions のキャッ",
+    "シュを使いこなす"
+   ],
+   "engineFont": [
+    "【保存版】GitHub Actions のキャッ",
+    "シュを使いこなす"
+   ],
+   "engineEstimate": [
+    "【保存版】GitHub Actions のキャッ",
+    "シュを使いこなす"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@24"
+   ]
+  },
+  {
+   "title": "「なんとなく」で書いていた useEffect をやめた話",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "「なんとなく」で書いていた useEff",
+    "ect をやめた話"
+   ],
+   "engineFont": [
+    "「なんとなく」で書いていた useEff",
+    "ect をやめた話"
+   ],
+   "engineEstimate": [
+    "「なんとなく」で書いていた useEff",
+    "ect をやめた話"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@20"
+   ]
+  },
+  {
+   "title": "Rust で CLI ツールを作って npm に公開してみた",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "Rust で CLI ツールを作って npm に",
+    "公開してみた"
+   ],
+   "engineFont": [
+    "Rust で CLI ツールを作って npm に",
+    "公開してみた"
+   ],
+   "engineEstimate": [
+    "Rust で CLI ツールを作って npm に",
+    "公開してみた"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "エンジニア 3 年目の振り返り：転職・副業・発信",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "エンジニア 3 年目の振り返り：転職",
+    "・副業・発信"
+   ],
+   "engineFont": [
+    "エンジニア 3 年目の振り返り：転職",
+    "・副業・発信"
+   ],
+   "engineEstimate": [
+    "エンジニア 3 年目の振り返り：転職",
+    "・副業・発信"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@18",
+    "kinsoku:line_start@18"
+   ]
+  },
+  {
+   "title": "Astro で作ったブログを Cloudflare Pages に移行しました",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "Astro で作ったブログを Cloudflare ",
+    "Pages に移行しました"
+   ],
+   "engineFont": [
+    "Astro で作ったブログを Cloudflare ",
+    "Pages に移行しました"
+   ],
+   "engineEstimate": [
+    "Astro で作ったブログを Cloudflare ",
+    "Pages に移行しました"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "React Server Components を完全に理解した（つもり）",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "React Server Components を完全",
+    "に理解した（つもり）"
+   ],
+   "engineFont": [
+    "React Server Components を完全",
+    "に理解した（つもり）"
+   ],
+   "engineEstimate": [
+    "React Server Components を完全",
+    "に理解した（つもり）"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@27"
+   ]
+  },
+  {
+   "title": "初めての OSS コントリビュートで学んだこと",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "初めての OSS コントリビュートで",
+    "学んだこと"
+   ],
+   "engineFont": [
+    "初めての OSS コントリビュートで",
+    "学んだこと"
+   ],
+   "engineEstimate": [
+    "初めての OSS コントリビュートで",
+    "学んだこと"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "ChatGPT と Claude を比べてコードレビューを任せてみた",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "ChatGPT と Claude を比べてコード",
+    "レビューを任せてみた"
+   ],
+   "engineFont": [
+    "ChatGPT と Claude を比べてコード",
+    "レビューを任せてみた"
+   ],
+   "engineEstimate": [
+    "ChatGPT と Claude を比べてコード",
+    "レビューを任せてみた"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@24"
+   ]
+  },
+  {
+   "title": "Docker Compose だけで開発環境を整える",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "Docker Compose だけで開発環境を",
+    "整える"
+   ],
+   "engineFont": [
+    "Docker Compose だけで開発環境を",
+    "整える"
+   ],
+   "engineEstimate": [
+    "Docker Compose だけで開発環境を",
+    "整える"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "SQLite は本番で使えるのか？ 1 年運用してわかったこと",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "SQLite は本番で使えるのか？ 1 年",
+    "運用してわかったこと"
+   ],
+   "engineFont": [
+    "SQLite は本番で使えるのか？ 1 年",
+    "運用してわかったこと"
+   ],
+   "engineEstimate": [
+    "SQLite は本番で使えるのか？ 1 年",
+    "運用してわかったこと"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@21"
+   ]
+  },
+  {
+   "title": "Zenn の記事を GitHub で管理するときのベストプラクティス",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "Zenn の記事を GitHub で管理する",
+    "ときのベストプラクティス"
+   ],
+   "engineFont": [
+    "Zenn の記事を GitHub で管理する",
+    "ときのベストプラクティス"
+   ],
+   "engineEstimate": [
+    "Zenn の記事を GitHub で管理する",
+    "ときのベストプラクティス"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "iOS アプリのユニバーサルリンクが動かないときに確認すること",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "iOS アプリのユニバーサルリンクが",
+    "動かないときに確認すること"
+   ],
+   "engineFont": [
+    "iOS アプリのユニバーサルリンクが",
+    "動かないときに確認すること"
+   ],
+   "engineEstimate": [
+    "iOS アプリのユニバーサルリンクが",
+    "動かないときに確認すること"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "ポートフォリオサイトをゼロから作り直した",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "ポートフォリオサイトをゼロから作",
+    "り直した"
+   ],
+   "engineFont": [
+    "ポートフォリオサイトをゼロから作",
+    "り直した"
+   ],
+   "engineEstimate": [
+    "ポートフォリオサイトをゼロから作",
+    "り直した"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@16"
+   ]
+  },
+  {
+   "title": "フロントエンドのテスト、どこまで書くべきか問題",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "フロントエンドのテスト、どこまで",
+    "書くべきか問題"
+   ],
+   "engineFont": [
+    "フロントエンドのテスト、どこまで",
+    "書くべきか問題"
+   ],
+   "engineEstimate": [
+    "フロントエンドのテスト、どこまで",
+    "書くべきか問題"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "Vercel の請求額が急に増えたので原因を調べた",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "Vercel の請求額が急に増えたので原",
+    "因を調べた"
+   ],
+   "engineFont": [
+    "Vercel の請求額が急に増えたので原",
+    "因を調べた"
+   ],
+   "engineEstimate": [
+    "Vercel の請求額が急に増えたので原",
+    "因を調べた"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@20"
+   ]
+  },
+  {
+   "title": "Tailwind CSS v4 で変わったこと・変わらなかったこと",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "Tailwind CSS v4 で変わったこと・",
+    "変わらなかったこと"
+   ],
+   "engineFont": [
+    "Tailwind CSS v4 で変わったこと・",
+    "変わらなかったこと"
+   ],
+   "engineEstimate": [
+    "Tailwind CSS v4 で変わったこと・",
+    "変わらなかったこと"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@24"
+   ]
+  },
+  {
+   "title": "新卒エンジニアが最初の半年でやってよかったこと 5 選",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "新卒エンジニアが最初の半年でやっ",
+    "てよかったこと 5 選"
+   ],
+   "engineFont": [
+    "新卒エンジニアが最初の半年でやっ",
+    "てよかったこと 5 選"
+   ],
+   "engineEstimate": [
+    "新卒エンジニアが最初の半年でやっ",
+    "てよかったこと 5 選"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@16"
+   ]
+  },
+  {
+   "title": "Go 言語で並行処理を書くときにハマりがちなポイント",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "Go 言語で並行処理を書くときにハ",
+    "マりがちなポイント"
+   ],
+   "engineFont": [
+    "Go 言語で並行処理を書くときにハ",
+    "マりがちなポイント"
+   ],
+   "engineEstimate": [
+    "Go 言語で並行処理を書くときにハ",
+    "マりがちなポイント"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@17"
+   ]
+  },
+  {
+   "title": "「技術的負債」とどう付き合うか ― チームでの実践",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "「技術的負債」とどう付き合うか ― ",
+    "チームでの実践"
+   ],
+   "engineFont": [
+    "「技術的負債」とどう付き合うか ― ",
+    "チームでの実践"
+   ],
+   "engineEstimate": [
+    "「技術的負債」とどう付き合うか ― ",
+    "チームでの実践"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "キャッシュ戦略を見直したらレスポンスが 3 倍速くなった",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "キャッシュ戦略を見直したらレスポ",
+    "ンスが 3 倍速くなった"
+   ],
+   "engineFont": [
+    "キャッシュ戦略を見直したらレスポ",
+    "ンスが 3 倍速くなった"
+   ],
+   "engineEstimate": [
+    "キャッシュ戦略を見直したらレスポ",
+    "ンスが 3 倍速くなった"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@16"
+   ]
+  },
+  {
+   "title": "ローカル LLM を MacBook で動かしてみた 🚀",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "ローカル LLM を MacBook で動かし",
+    "てみた 🚀"
+   ],
+   "engineFont": [
+    "ローカル LLM を MacBook で動かし",
+    "てみた 🚀"
+   ],
+   "engineEstimate": [
+    "ローカル LLM を MacBook で動かし",
+    "てみた 🚀"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@23"
+   ]
+  },
+  {
+   "title": "はじめてのカンファレンス登壇、準備から当日まで",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "はじめてのカンファレンス登壇、準",
+    "備から当日まで"
+   ],
+   "engineFont": [
+    "はじめてのカンファレンス登壇、準",
+    "備から当日まで"
+   ],
+   "engineEstimate": [
+    "はじめてのカンファレンス登壇、準",
+    "備から当日まで"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@16"
+   ]
+  },
+  {
+   "title": "Web アクセシビリティ対応、まず何から始める？",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "Web アクセシビリティ対応、まず",
+    "何から始める？"
+   ],
+   "engineFont": [
+    "Web アクセシビリティ対応、まず",
+    "何から始める？"
+   ],
+   "engineEstimate": [
+    "Web アクセシビリティ対応、まず",
+    "何から始める？"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "Supabase と Prisma を組み合わせるときの注意点",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "Supabase と Prisma を組み合わせ",
+    "るときの注意点"
+   ],
+   "engineFont": [
+    "Supabase と Prisma を組み合わせ",
+    "るときの注意点"
+   ],
+   "engineEstimate": [
+    "Supabase と Prisma を組み合わせ",
+    "るときの注意点"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@24"
+   ]
+  },
+  {
+   "title": "ゆるく続ける個人ブログの運用術",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "ゆるく続ける個人ブログの運用術"
+   ],
+   "engineFont": [
+    "ゆるく続ける個人ブログの運用術"
+   ],
+   "engineEstimate": [
+    "ゆるく続ける個人ブログの運用術"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "デザインシステムを小さく始めるためのチェックリスト",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "デザインシステムを小さく始めるた",
+    "めのチェックリスト"
+   ],
+   "engineFont": [
+    "デザインシステムを小さく始めるた",
+    "めのチェックリスト"
+   ],
+   "engineEstimate": [
+    "デザインシステムを小さく始めるた",
+    "めのチェックリスト"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@16"
+   ]
+  },
+  {
+   "title": "ｴﾝｼﾞﾆｱのための半角カナ処理入門",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "ｴﾝｼﾞﾆｱのための半角カナ処理入門"
+   ],
+   "engineFont": [
+    "ｴﾝｼﾞﾆｱのための半角カナ処理入門"
+   ],
+   "engineEstimate": [
+    "ｴﾝｼﾞﾆｱのための半角カナ処理入門"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "monorepo 移行で CI が 40 分から 8 分になるまで",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "monorepo 移行で CI が 40 分から 8 ",
+    "分になるまで"
+   ],
+   "engineFont": [
+    "monorepo 移行で CI が 40 分から 8 ",
+    "分になるまで"
+   ],
+   "engineEstimate": [
+    "monorepo 移行で CI が 40 分から 8 ",
+    "分になるまで"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "コードレビューで「LGTM」と言う前に見ていること",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "コードレビューで「LGTM」と言う",
+    "前に見ていること"
+   ],
+   "engineFont": [
+    "コードレビューで「LGTM」と言う",
+    "前に見ていること"
+   ],
+   "engineEstimate": [
+    "コードレビューで「LGTM」と言う",
+    "前に見ていること"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@17"
+   ]
+  },
+  {
+   "title": "Kubernetes を使わないという選択肢",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "Kubernetes を使わないという選択",
+    "肢"
+   ],
+   "engineFont": [
+    "Kubernetes を使わないという選択",
+    "肢"
+   ],
+   "engineEstimate": [
+    "Kubernetes を使わないという選択",
+    "肢"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@21"
+   ]
+  },
+  {
+   "title": "朝活で技術書を 1 年に 50 冊読んだ方法",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "朝活で技術書を 1 年に 50 冊読んだ",
+    "方法"
+   ],
+   "engineFont": [
+    "朝活で技術書を 1 年に 50 冊読んだ",
+    "方法"
+   ],
+   "engineEstimate": [
+    "朝活で技術書を 1 年に 50 冊読んだ",
+    "方法"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "オブザーバビリティって結局なに？ ログ・メトリクス・トレース入門",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "オブザーバビリティって結局なに？ ",
+    "ログ・メトリクス・トレース入門"
+   ],
+   "engineFont": [
+    "オブザーバビリティって結局なに？ ",
+    "ログ・メトリクス・トレース入門"
+   ],
+   "engineEstimate": [
+    "オブザーバビリティって結局なに？ ",
+    "ログ・メトリクス・トレース入門"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "Flutter と React Native、2026 年に選ぶならどっち？",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "Flutter と React Native、2026 年に",
+    "選ぶならどっち？"
+   ],
+   "engineFont": [
+    "Flutter と React Native、2026 年に",
+    "選ぶならどっち？"
+   ],
+   "engineEstimate": [
+    "Flutter と React Native、2026 年に",
+    "選ぶならどっち？"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "ドメイン駆動設計を小さなプロジェクトに取り入れてみた",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "ドメイン駆動設計を小さなプロジェ",
+    "クトに取り入れてみた"
+   ],
+   "engineFont": [
+    "ドメイン駆動設計を小さなプロジェ",
+    "クトに取り入れてみた"
+   ],
+   "engineEstimate": [
+    "ドメイン駆動設計を小さなプロジェ",
+    "クトに取り入れてみた"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@16"
+   ]
+  },
+  {
+   "title": "WebAssembly でブラウザ上に画像処理エンジンを載せる",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "WebAssembly でブラウザ上に画像",
+    "処理エンジンを載せる"
+   ],
+   "engineFont": [
+    "WebAssembly でブラウザ上に画像",
+    "処理エンジンを載せる"
+   ],
+   "engineEstimate": [
+    "WebAssembly でブラウザ上に画像",
+    "処理エンジンを載せる"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@21"
+   ]
+  },
+  {
+   "title": "エラーメッセージを読む力を鍛える",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "エラーメッセージを読む力を鍛える"
+   ],
+   "engineFont": [
+    "エラーメッセージを読む力を鍛える"
+   ],
+   "engineEstimate": [
+    "エラーメッセージを読む力を鍛える"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "😇 本番 DB を消しかけた日のこと",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 64,
+   "padding": 80,
+   "satori": [
+    "😇 本番 DB を消しかけた日のこと"
+   ],
+   "engineFont": [
+    "😇 本番 DB を消しかけた日のこと"
+   ],
+   "engineEstimate": [
+    "😇 本番 DB を消しかけた日のこと"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "Next.js 15 の App Router で OGP 画像を動的に生成する方法",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "Next.js 15 の App Router で OGP 画像を動",
+    "的に生成する方法"
+   ],
+   "engineFont": [
+    "Next.js 15 の App Router で OGP 画像を動",
+    "的に生成する方法"
+   ],
+   "engineEstimate": [
+    "Next.js 15 の App Router で OGP 画像を動",
+    "的に生成する方法"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@34"
+   ]
+  },
+  {
+   "title": "TypeScript 7 へのアップグレードで踏んだ地雷まとめ",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "TypeScript 7 へのアップグレードで踏んだ",
+    "地雷まとめ"
+   ],
+   "engineFont": [
+    "TypeScript 7 へのアップグレードで踏んだ",
+    "地雷まとめ"
+   ],
+   "engineEstimate": [
+    "TypeScript 7 へのアップグレードで踏んだ",
+    "地雷まとめ"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "個人開発で月 10 万円を稼ぐまでにやったこと全部",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "個人開発で月 10 万円を稼ぐまでにやった",
+    "こと全部"
+   ],
+   "engineFont": [
+    "個人開発で月 10 万円を稼ぐまでにやった",
+    "こと全部"
+   ],
+   "engineEstimate": [
+    "個人開発で月 10 万円を稼ぐまでにやった",
+    "こと全部"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "【保存版】GitHub Actions のキャッシュを使いこなす",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "【保存版】GitHub Actions のキャッシュを",
+    "使いこなす"
+   ],
+   "engineFont": [
+    "【保存版】GitHub Actions のキャッシュを",
+    "使いこなす"
+   ],
+   "engineEstimate": [
+    "【保存版】GitHub Actions のキャッシュを",
+    "使いこなす"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "「なんとなく」で書いていた useEffect をやめた話",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "「なんとなく」で書いていた useEffect を",
+    "やめた話"
+   ],
+   "engineFont": [
+    "「なんとなく」で書いていた useEffect を",
+    "やめた話"
+   ],
+   "engineEstimate": [
+    "「なんとなく」で書いていた useEffect を",
+    "やめた話"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "Rust で CLI ツールを作って npm に公開してみた",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "Rust で CLI ツールを作って npm に公開し",
+    "てみた"
+   ],
+   "engineFont": [
+    "Rust で CLI ツールを作って npm に公開し",
+    "てみた"
+   ],
+   "engineEstimate": [
+    "Rust で CLI ツールを作って npm に公開し",
+    "てみた"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@27"
+   ]
+  },
+  {
+   "title": "エンジニア 3 年目の振り返り：転職・副業・発信",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "エンジニア 3 年目の振り返り：転職・副業",
+    "・発信"
+   ],
+   "engineFont": [
+    "エンジニア 3 年目の振り返り：転職・副業",
+    "・発信"
+   ],
+   "engineEstimate": [
+    "エンジニア 3 年目の振り返り：転職・副業",
+    "・発信"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@21",
+    "kinsoku:line_start@21"
+   ]
+  },
+  {
+   "title": "Astro で作ったブログを Cloudflare Pages に移行しました",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "Astro で作ったブログを Cloudflare Pages ",
+    "に移行しました"
+   ],
+   "engineFont": [
+    "Astro で作ったブログを Cloudflare Pages ",
+    "に移行しました"
+   ],
+   "engineEstimate": [
+    "Astro で作ったブログを Cloudflare Pages ",
+    "に移行しました"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "React Server Components を完全に理解した（つもり）",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "React Server Components を完全に理解",
+    "した（つもり）"
+   ],
+   "engineFont": [
+    "React Server Components を完全に理解",
+    "した（つもり）"
+   ],
+   "engineEstimate": [
+    "React Server Components を完全に理解",
+    "した（つもり）"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@30"
+   ]
+  },
+  {
+   "title": "初めての OSS コントリビュートで学んだこと",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "初めての OSS コントリビュートで学んだ",
+    "こと"
+   ],
+   "engineFont": [
+    "初めての OSS コントリビュートで学んだ",
+    "こと"
+   ],
+   "engineEstimate": [
+    "初めての OSS コントリビュートで学んだ",
+    "こと"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "ChatGPT と Claude を比べてコードレビューを任せてみた",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "ChatGPT と Claude を比べてコードレビュ",
+    "ーを任せてみた"
+   ],
+   "engineFont": [
+    "ChatGPT と Claude を比べてコードレビュ",
+    "ーを任せてみた"
+   ],
+   "engineEstimate": [
+    "ChatGPT と Claude を比べてコードレビュ",
+    "ーを任せてみた"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@27",
+    "kinsoku:line_start@27"
+   ]
+  },
+  {
+   "title": "Docker Compose だけで開発環境を整える",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "Docker Compose だけで開発環境を整える"
+   ],
+   "engineFont": [
+    "Docker Compose だけで開発環境を整える"
+   ],
+   "engineEstimate": [
+    "Docker Compose だけで開発環境を整える"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "SQLite は本番で使えるのか？ 1 年運用してわかったこと",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "SQLite は本番で使えるのか？ 1 年運用し",
+    "てわかったこと"
+   ],
+   "engineFont": [
+    "SQLite は本番で使えるのか？ 1 年運用し",
+    "てわかったこと"
+   ],
+   "engineEstimate": [
+    "SQLite は本番で使えるのか？ 1 年運用し",
+    "てわかったこと"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@24"
+   ]
+  },
+  {
+   "title": "Zenn の記事を GitHub で管理するときのベストプラクティス",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "Zenn の記事を GitHub で管理するときの",
+    "ベストプラクティス"
+   ],
+   "engineFont": [
+    "Zenn の記事を GitHub で管理するときの",
+    "ベストプラクティス"
+   ],
+   "engineEstimate": [
+    "Zenn の記事を GitHub で管理するときの",
+    "ベストプラクティス"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "iOS アプリのユニバーサルリンクが動かないときに確認すること",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "iOS アプリのユニバーサルリンクが動かな",
+    "いときに確認すること"
+   ],
+   "engineFont": [
+    "iOS アプリのユニバーサルリンクが動かな",
+    "いときに確認すること"
+   ],
+   "engineEstimate": [
+    "iOS アプリのユニバーサルリンクが動かな",
+    "いときに確認すること"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@21"
+   ]
+  },
+  {
+   "title": "ポートフォリオサイトをゼロから作り直した",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "ポートフォリオサイトをゼロから作り直し",
+    "た"
+   ],
+   "engineFont": [
+    "ポートフォリオサイトをゼロから作り直し",
+    "た"
+   ],
+   "engineEstimate": [
+    "ポートフォリオサイトをゼロから作り直し",
+    "た"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@19"
+   ]
+  },
+  {
+   "title": "フロントエンドのテスト、どこまで書くべきか問題",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "フロントエンドのテスト、どこまで書くべ",
+    "きか問題"
+   ],
+   "engineFont": [
+    "フロントエンドのテスト、どこまで書くべ",
+    "きか問題"
+   ],
+   "engineEstimate": [
+    "フロントエンドのテスト、どこまで書くべ",
+    "きか問題"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@19"
+   ]
+  },
+  {
+   "title": "Vercel の請求額が急に増えたので原因を調べた",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "Vercel の請求額が急に増えたので原因を調",
+    "べた"
+   ],
+   "engineFont": [
+    "Vercel の請求額が急に増えたので原因を調",
+    "べた"
+   ],
+   "engineEstimate": [
+    "Vercel の請求額が急に増えたので原因を調",
+    "べた"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@23"
+   ]
+  },
+  {
+   "title": "Tailwind CSS v4 で変わったこと・変わらなかったこと",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "Tailwind CSS v4 で変わったこと・変わら",
+    "なかったこと"
+   ],
+   "engineFont": [
+    "Tailwind CSS v4 で変わったこと・変わら",
+    "なかったこと"
+   ],
+   "engineEstimate": [
+    "Tailwind CSS v4 で変わったこと・変わら",
+    "なかったこと"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@27"
+   ]
+  },
+  {
+   "title": "新卒エンジニアが最初の半年でやってよかったこと 5 選",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "新卒エンジニアが最初の半年でやってよか",
+    "ったこと 5 選"
+   ],
+   "engineFont": [
+    "新卒エンジニアが最初の半年でやってよか",
+    "ったこと 5 選"
+   ],
+   "engineEstimate": [
+    "新卒エンジニアが最初の半年でやってよか",
+    "ったこと 5 選"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@19",
+    "kinsoku:line_start@19"
+   ]
+  },
+  {
+   "title": "Go 言語で並行処理を書くときにハマりがちなポイント",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "Go 言語で並行処理を書くときにハマりが",
+    "ちなポイント"
+   ],
+   "engineFont": [
+    "Go 言語で並行処理を書くときにハマりが",
+    "ちなポイント"
+   ],
+   "engineEstimate": [
+    "Go 言語で並行処理を書くときにハマりが",
+    "ちなポイント"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@20"
+   ]
+  },
+  {
+   "title": "「技術的負債」とどう付き合うか ― チームでの実践",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "「技術的負債」とどう付き合うか ― チー",
+    "ムでの実践"
+   ],
+   "engineFont": [
+    "「技術的負債」とどう付き合うか ― チー",
+    "ムでの実践"
+   ],
+   "engineEstimate": [
+    "「技術的負債」とどう付き合うか ― チー",
+    "ムでの実践"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@20"
+   ]
+  },
+  {
+   "title": "キャッシュ戦略を見直したらレスポンスが 3 倍速くなった",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "キャッシュ戦略を見直したらレスポンスが ",
+    "3 倍速くなった"
+   ],
+   "engineFont": [
+    "キャッシュ戦略を見直したらレスポンスが ",
+    "3 倍速くなった"
+   ],
+   "engineEstimate": [
+    "キャッシュ戦略を見直したらレスポンスが ",
+    "3 倍速くなった"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "ローカル LLM を MacBook で動かしてみた 🚀",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "ローカル LLM を MacBook で動かしてみた ",
+    "🚀"
+   ],
+   "engineFont": [
+    "ローカル LLM を MacBook で動かしてみた ",
+    "🚀"
+   ],
+   "engineEstimate": [
+    "ローカル LLM を MacBook で動かしてみた ",
+    "🚀"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "はじめてのカンファレンス登壇、準備から当日まで",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "はじめてのカンファレンス登壇、準備から",
+    "当日まで"
+   ],
+   "engineFont": [
+    "はじめてのカンファレンス登壇、準備から",
+    "当日まで"
+   ],
+   "engineEstimate": [
+    "はじめてのカンファレンス登壇、準備から",
+    "当日まで"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "Web アクセシビリティ対応、まず何から始める？",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "Web アクセシビリティ対応、まず何から始",
+    "める？"
+   ],
+   "engineFont": [
+    "Web アクセシビリティ対応、まず何から始",
+    "める？"
+   ],
+   "engineEstimate": [
+    "Web アクセシビリティ対応、まず何から始",
+    "める？"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@21"
+   ]
+  },
+  {
+   "title": "Supabase と Prisma を組み合わせるときの注意点",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "Supabase と Prisma を組み合わせるとき",
+    "の注意点"
+   ],
+   "engineFont": [
+    "Supabase と Prisma を組み合わせるとき",
+    "の注意点"
+   ],
+   "engineEstimate": [
+    "Supabase と Prisma を組み合わせるとき",
+    "の注意点"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@27"
+   ]
+  },
+  {
+   "title": "ゆるく続ける個人ブログの運用術",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "ゆるく続ける個人ブログの運用術"
+   ],
+   "engineFont": [
+    "ゆるく続ける個人ブログの運用術"
+   ],
+   "engineEstimate": [
+    "ゆるく続ける個人ブログの運用術"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "デザインシステムを小さく始めるためのチェックリスト",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "デザインシステムを小さく始めるためのチ",
+    "ェックリスト"
+   ],
+   "engineFont": [
+    "デザインシステムを小さく始めるためのチ",
+    "ェックリスト"
+   ],
+   "engineEstimate": [
+    "デザインシステムを小さく始めるためのチ",
+    "ェックリスト"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@19",
+    "kinsoku:line_start@19"
+   ]
+  },
+  {
+   "title": "ｴﾝｼﾞﾆｱのための半角カナ処理入門",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "ｴﾝｼﾞﾆｱのための半角カナ処理入門"
+   ],
+   "engineFont": [
+    "ｴﾝｼﾞﾆｱのための半角カナ処理入門"
+   ],
+   "engineEstimate": [
+    "ｴﾝｼﾞﾆｱのための半角カナ処理入門"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "monorepo 移行で CI が 40 分から 8 分になるまで",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "monorepo 移行で CI が 40 分から 8 分にな",
+    "るまで"
+   ],
+   "engineFont": [
+    "monorepo 移行で CI が 40 分から 8 分にな",
+    "るまで"
+   ],
+   "engineEstimate": [
+    "monorepo 移行で CI が 40 分から 8 分にな",
+    "るまで"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@30"
+   ]
+  },
+  {
+   "title": "コードレビューで「LGTM」と言う前に見ていること",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "コードレビューで「LGTM」と言う前に見",
+    "ていること"
+   ],
+   "engineFont": [
+    "コードレビューで「LGTM」と言う前に見",
+    "ていること"
+   ],
+   "engineEstimate": [
+    "コードレビューで「LGTM」と言う前に見",
+    "ていること"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@20"
+   ]
+  },
+  {
+   "title": "Kubernetes を使わないという選択肢",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "Kubernetes を使わないという選択肢"
+   ],
+   "engineFont": [
+    "Kubernetes を使わないという選択肢"
+   ],
+   "engineEstimate": [
+    "Kubernetes を使わないという選択肢"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "朝活で技術書を 1 年に 50 冊読んだ方法",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "朝活で技術書を 1 年に 50 冊読んだ方法"
+   ],
+   "engineFont": [
+    "朝活で技術書を 1 年に 50 冊読んだ方法"
+   ],
+   "engineEstimate": [
+    "朝活で技術書を 1 年に 50 冊読んだ方法"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "オブザーバビリティって結局なに？ ログ・メトリクス・トレース入門",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "オブザーバビリティって結局なに？ ログ・",
+    "メトリクス・トレース入門"
+   ],
+   "engineFont": [
+    "オブザーバビリティって結局なに？ ログ・",
+    "メトリクス・トレース入門"
+   ],
+   "engineEstimate": [
+    "オブザーバビリティって結局なに？ ログ・",
+    "メトリクス・トレース入門"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@20"
+   ]
+  },
+  {
+   "title": "Flutter と React Native、2026 年に選ぶならどっち？",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "Flutter と React Native、2026 年に選ぶな",
+    "らどっち？"
+   ],
+   "engineFont": [
+    "Flutter と React Native、2026 年に選ぶな",
+    "らどっち？"
+   ],
+   "engineEstimate": [
+    "Flutter と React Native、2026 年に選ぶな",
+    "らどっち？"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@33"
+   ]
+  },
+  {
+   "title": "ドメイン駆動設計を小さなプロジェクトに取り入れてみた",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "ドメイン駆動設計を小さなプロジェクトに",
+    "取り入れてみた"
+   ],
+   "engineFont": [
+    "ドメイン駆動設計を小さなプロジェクトに",
+    "取り入れてみた"
+   ],
+   "engineEstimate": [
+    "ドメイン駆動設計を小さなプロジェクトに",
+    "取り入れてみた"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "WebAssembly でブラウザ上に画像処理エンジンを載せる",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "WebAssembly でブラウザ上に画像処理エ",
+    "ンジンを載せる"
+   ],
+   "engineFont": [
+    "WebAssembly でブラウザ上に画像処理エ",
+    "ンジンを載せる"
+   ],
+   "engineEstimate": [
+    "WebAssembly でブラウザ上に画像処理エ",
+    "ンジンを載せる"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@24"
+   ]
+  },
+  {
+   "title": "エラーメッセージを読む力を鍛える",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "エラーメッセージを読む力を鍛える"
+   ],
+   "engineFont": [
+    "エラーメッセージを読む力を鍛える"
+   ],
+   "engineEstimate": [
+    "エラーメッセージを読む力を鍛える"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "😇 本番 DB を消しかけた日のこと",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 56,
+   "padding": 60,
+   "satori": [
+    "😇 本番 DB を消しかけた日のこと"
+   ],
+   "engineFont": [
+    "😇 本番 DB を消しかけた日のこと"
+   ],
+   "engineEstimate": [
+    "😇 本番 DB を消しかけた日のこと"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "Next.js 15 の App Router で OGP 画像を動的に生成する方法",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "Next.js 15 の App Router で O",
+    "GP 画像を動的に生成する方法"
+   ],
+   "engineFont": [
+    "Next.js 15 の App Router で O",
+    "GP 画像を動的に生成する方法"
+   ],
+   "engineEstimate": [
+    "Next.js 15 の App Router で O",
+    "GP 画像を動的に生成する方法"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@27"
+   ]
+  },
+  {
+   "title": "TypeScript 7 へのアップグレードで踏んだ地雷まとめ",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "TypeScript 7 へのアップグレ",
+    "ードで踏んだ地雷まとめ"
+   ],
+   "engineFont": [
+    "TypeScript 7 へのアップグレ",
+    "ードで踏んだ地雷まとめ"
+   ],
+   "engineEstimate": [
+    "TypeScript 7 へのアップグレ",
+    "ードで踏んだ地雷まとめ"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@20",
+    "kinsoku:line_start@20"
+   ]
+  },
+  {
+   "title": "個人開発で月 10 万円を稼ぐまでにやったこと全部",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "個人開発で月 10 万円を稼ぐま",
+    "でにやったこと全部"
+   ],
+   "engineFont": [
+    "個人開発で月 10 万円を稼ぐま",
+    "でにやったこと全部"
+   ],
+   "engineEstimate": [
+    "個人開発で月 10 万円を稼ぐま",
+    "でにやったこと全部"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@16"
+   ]
+  },
+  {
+   "title": "【保存版】GitHub Actions のキャッシュを使いこなす",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "【保存版】GitHub Actions の",
+    "キャッシュを使いこなす"
+   ],
+   "engineFont": [
+    "【保存版】GitHub Actions の",
+    "キャッシュを使いこなす"
+   ],
+   "engineEstimate": [
+    "【保存版】GitHub Actions の",
+    "キャッシュを使いこなす"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "「なんとなく」で書いていた useEffect をやめた話",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "「なんとなく」で書いていた u",
+    "seEffect をやめた話"
+   ],
+   "engineFont": [
+    "「なんとなく」で書いていた u",
+    "seEffect をやめた話"
+   ],
+   "engineEstimate": [
+    "「なんとなく」で書いていた u",
+    "seEffect をやめた話"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@15"
+   ]
+  },
+  {
+   "title": "Rust で CLI ツールを作って npm に公開してみた",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "Rust で CLI ツールを作って np",
+    "m に公開してみた"
+   ],
+   "engineFont": [
+    "Rust で CLI ツールを作って np",
+    "m に公開してみた"
+   ],
+   "engineEstimate": [
+    "Rust で CLI ツールを作って np",
+    "m に公開してみた"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@21"
+   ]
+  },
+  {
+   "title": "エンジニア 3 年目の振り返り：転職・副業・発信",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "エンジニア 3 年目の振り返り",
+    "：転職・副業・発信"
+   ],
+   "engineFont": [
+    "エンジニア 3 年目の振り返り",
+    "：転職・副業・発信"
+   ],
+   "engineEstimate": [
+    "エンジニア 3 年目の振り返り",
+    "：転職・副業・発信"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@15",
+    "kinsoku:line_start@15"
+   ]
+  },
+  {
+   "title": "Astro で作ったブログを Cloudflare Pages に移行しました",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "Astro で作ったブログを Cloud",
+    "flare Pages に移行しました"
+   ],
+   "engineFont": [
+    "Astro で作ったブログを Cloud",
+    "flare Pages に移行しました"
+   ],
+   "engineEstimate": [
+    "Astro で作ったブログを Cloud",
+    "flare Pages に移行しました"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@20"
+   ]
+  },
+  {
+   "title": "React Server Components を完全に理解した（つもり）",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "React Server Components を",
+    "完全に理解した（つもり）"
+   ],
+   "engineFont": [
+    "React Server Components を",
+    "完全に理解した（つもり）"
+   ],
+   "engineEstimate": [
+    "React Server Components を",
+    "完全に理解した（つもり）"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "初めての OSS コントリビュートで学んだこと",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "初めての OSS コントリビュー",
+    "トで学んだこと"
+   ],
+   "engineFont": [
+    "初めての OSS コントリビュー",
+    "トで学んだこと"
+   ],
+   "engineEstimate": [
+    "初めての OSS コントリビュー",
+    "トで学んだこと"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@16"
+   ]
+  },
+  {
+   "title": "ChatGPT と Claude を比べてコードレビューを任せてみた",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "ChatGPT と Claude を比べて",
+    "コードレビューを任せてみた"
+   ],
+   "engineFont": [
+    "ChatGPT と Claude を比べて",
+    "コードレビューを任せてみた"
+   ],
+   "engineEstimate": [
+    "ChatGPT と Claude を比べて",
+    "コードレビューを任せてみた"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "Docker Compose だけで開発環境を整える",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "Docker Compose だけで開発",
+    "環境を整える"
+   ],
+   "engineFont": [
+    "Docker Compose だけで開発",
+    "環境を整える"
+   ],
+   "engineEstimate": [
+    "Docker Compose だけで開発",
+    "環境を整える"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@20"
+   ]
+  },
+  {
+   "title": "SQLite は本番で使えるのか？ 1 年運用してわかったこと",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "SQLite は本番で使えるのか？ ",
+    "1 年運用してわかったこと"
+   ],
+   "engineFont": [
+    "SQLite は本番で使えるのか？ ",
+    "1 年運用してわかったこと"
+   ],
+   "engineEstimate": [
+    "SQLite は本番で使えるのか？ ",
+    "1 年運用してわかったこと"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "Zenn の記事を GitHub で管理するときのベストプラクティス",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "Zenn の記事を GitHub で管理",
+    "するときのベストプラクティ",
+    "ス"
+   ],
+   "engineFont": [
+    "Zenn の記事を GitHub で管理",
+    "するときのベストプラクティ",
+    "ス"
+   ],
+   "engineEstimate": [
+    "Zenn の記事を GitHub で管理",
+    "するときのベストプラクティ",
+    "ス"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@20",
+    "mid_phrase@33"
+   ]
+  },
+  {
+   "title": "iOS アプリのユニバーサルリンクが動かないときに確認すること",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "iOS アプリのユニバーサルリン",
+    "クが動かないときに確認する",
+    "こと"
+   ],
+   "engineFont": [
+    "iOS アプリのユニバーサルリン",
+    "クが動かないときに確認する",
+    "こと"
+   ],
+   "engineEstimate": [
+    "iOS アプリのユニバーサルリン",
+    "クが動かないときに確認する",
+    "こと"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@16"
+   ]
+  },
+  {
+   "title": "ポートフォリオサイトをゼロから作り直した",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "ポートフォリオサイトをゼロ",
+    "から作り直した"
+   ],
+   "engineFont": [
+    "ポートフォリオサイトをゼロ",
+    "から作り直した"
+   ],
+   "engineEstimate": [
+    "ポートフォリオサイトをゼロ",
+    "から作り直した"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@13"
+   ]
+  },
+  {
+   "title": "フロントエンドのテスト、どこまで書くべきか問題",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "フロントエンドのテスト、ど",
+    "こまで書くべきか問題"
+   ],
+   "engineFont": [
+    "フロントエンドのテスト、ど",
+    "こまで書くべきか問題"
+   ],
+   "engineEstimate": [
+    "フロントエンドのテスト、ど",
+    "こまで書くべきか問題"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@13"
+   ]
+  },
+  {
+   "title": "Vercel の請求額が急に増えたので原因を調べた",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "Vercel の請求額が急に増えた",
+    "ので原因を調べた"
+   ],
+   "engineFont": [
+    "Vercel の請求額が急に増えた",
+    "ので原因を調べた"
+   ],
+   "engineEstimate": [
+    "Vercel の請求額が急に増えた",
+    "ので原因を調べた"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@17"
+   ]
+  },
+  {
+   "title": "Tailwind CSS v4 で変わったこと・変わらなかったこと",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "Tailwind CSS v4 で変わったこ",
+    "と・変わらなかったこと"
+   ],
+   "engineFont": [
+    "Tailwind CSS v4 で変わったこ",
+    "と・変わらなかったこと"
+   ],
+   "engineEstimate": [
+    "Tailwind CSS v4 で変わったこ",
+    "と・変わらなかったこと"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@22"
+   ]
+  },
+  {
+   "title": "新卒エンジニアが最初の半年でやってよかったこと 5 選",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "新卒エンジニアが最初の半年",
+    "でやってよかったこと 5 選"
+   ],
+   "engineFont": [
+    "新卒エンジニアが最初の半年",
+    "でやってよかったこと 5 選"
+   ],
+   "engineEstimate": [
+    "新卒エンジニアが最初の半年",
+    "でやってよかったこと 5 選"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@13"
+   ]
+  },
+  {
+   "title": "Go 言語で並行処理を書くときにハマりがちなポイント",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "Go 言語で並行処理を書くとき",
+    "にハマりがちなポイント"
+   ],
+   "engineFont": [
+    "Go 言語で並行処理を書くとき",
+    "にハマりがちなポイント"
+   ],
+   "engineEstimate": [
+    "Go 言語で並行処理を書くとき",
+    "にハマりがちなポイント"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@15"
+   ]
+  },
+  {
+   "title": "「技術的負債」とどう付き合うか ― チームでの実践",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "「技術的負債」とどう付き合",
+    "うか ― チームでの実践"
+   ],
+   "engineFont": [
+    "「技術的負債」とどう付き合",
+    "うか ― チームでの実践"
+   ],
+   "engineEstimate": [
+    "「技術的負債」とどう付き合",
+    "うか ― チームでの実践"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@13"
+   ]
+  },
+  {
+   "title": "キャッシュ戦略を見直したらレスポンスが 3 倍速くなった",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "キャッシュ戦略を見直したら",
+    "レスポンスが 3 倍速くなった"
+   ],
+   "engineFont": [
+    "キャッシュ戦略を見直したら",
+    "レスポンスが 3 倍速くなった"
+   ],
+   "engineEstimate": [
+    "キャッシュ戦略を見直したら",
+    "レスポンスが 3 倍速くなった"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "ローカル LLM を MacBook で動かしてみた 🚀",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "ローカル LLM を MacBook で",
+    "動かしてみた 🚀"
+   ],
+   "engineFont": [
+    "ローカル LLM を MacBook で",
+    "動かしてみた 🚀"
+   ],
+   "engineEstimate": [
+    "ローカル LLM を MacBook で",
+    "動かしてみた 🚀"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "はじめてのカンファレンス登壇、準備から当日まで",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "はじめてのカンファレンス登",
+    "壇、準備から当日まで"
+   ],
+   "engineFont": [
+    "はじめてのカンファレンス登",
+    "壇、準備から当日まで"
+   ],
+   "engineEstimate": [
+    "はじめてのカンファレンス登",
+    "壇、準備から当日まで"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@13"
+   ]
+  },
+  {
+   "title": "Web アクセシビリティ対応、まず何から始める？",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "Web アクセシビリティ対応、",
+    "まず何から始める？"
+   ],
+   "engineFont": [
+    "Web アクセシビリティ対応、",
+    "まず何から始める？"
+   ],
+   "engineEstimate": [
+    "Web アクセシビリティ対応、",
+    "まず何から始める？"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "Supabase と Prisma を組み合わせるときの注意点",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "Supabase と Prisma を組み合",
+    "わせるときの注意点"
+   ],
+   "engineFont": [
+    "Supabase と Prisma を組み合",
+    "わせるときの注意点"
+   ],
+   "engineEstimate": [
+    "Supabase と Prisma を組み合",
+    "わせるときの注意点"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@22"
+   ]
+  },
+  {
+   "title": "ゆるく続ける個人ブログの運用術",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "ゆるく続ける個人ブログの運",
+    "用術"
+   ],
+   "engineFont": [
+    "ゆるく続ける個人ブログの運",
+    "用術"
+   ],
+   "engineEstimate": [
+    "ゆるく続ける個人ブログの運",
+    "用術"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@13"
+   ]
+  },
+  {
+   "title": "デザインシステムを小さく始めるためのチェックリスト",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "デザインシステムを小さく始",
+    "めるためのチェックリスト"
+   ],
+   "engineFont": [
+    "デザインシステムを小さく始",
+    "めるためのチェックリスト"
+   ],
+   "engineEstimate": [
+    "デザインシステムを小さく始",
+    "めるためのチェックリスト"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@13"
+   ]
+  },
+  {
+   "title": "ｴﾝｼﾞﾆｱのための半角カナ処理入門",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "ｴﾝｼﾞﾆｱのための半角カナ処理",
+    "入門"
+   ],
+   "engineFont": [
+    "ｴﾝｼﾞﾆｱのための半角カナ処理",
+    "入門"
+   ],
+   "engineEstimate": [
+    "ｴﾝｼﾞﾆｱのための半角カナ処理入",
+    "門"
+   ],
+   "matchFont": true,
+   "matchEstimate": false,
+   "violationsFont": [
+    "mid_phrase@16"
+   ]
+  },
+  {
+   "title": "monorepo 移行で CI が 40 分から 8 分になるまで",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "monorepo 移行で CI が 40 分",
+    "から 8 分になるまで"
+   ],
+   "engineFont": [
+    "monorepo 移行で CI が 40 分",
+    "から 8 分になるまで"
+   ],
+   "engineEstimate": [
+    "monorepo 移行で CI が 40 分",
+    "から 8 分になるまで"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@22"
+   ]
+  },
+  {
+   "title": "コードレビューで「LGTM」と言う前に見ていること",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "コードレビューで「LGTM」と",
+    "言う前に見ていること"
+   ],
+   "engineFont": [
+    "コードレビューで「LGTM」と",
+    "言う前に見ていること"
+   ],
+   "engineEstimate": [
+    "コードレビューで「LGTM」と",
+    "言う前に見ていること"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "Kubernetes を使わないという選択肢",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "Kubernetes を使わないという",
+    "選択肢"
+   ],
+   "engineFont": [
+    "Kubernetes を使わないという",
+    "選択肢"
+   ],
+   "engineEstimate": [
+    "Kubernetes を使わないという",
+    "選択肢"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "朝活で技術書を 1 年に 50 冊読んだ方法",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "朝活で技術書を 1 年に 50 冊読",
+    "んだ方法"
+   ],
+   "engineFont": [
+    "朝活で技術書を 1 年に 50 冊読",
+    "んだ方法"
+   ],
+   "engineEstimate": [
+    "朝活で技術書を 1 年に 50 冊読",
+    "んだ方法"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@18"
+   ]
+  },
+  {
+   "title": "オブザーバビリティって結局なに？ ログ・メトリクス・トレース入門",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "オブザーバビリティって結局",
+    "なに？ ログ・メトリクス・ト",
+    "レース入門"
+   ],
+   "engineFont": [
+    "オブザーバビリティって結局",
+    "なに？ ログ・メトリクス・ト",
+    "レース入門"
+   ],
+   "engineEstimate": [
+    "オブザーバビリティって結局",
+    "なに？ ログ・メトリクス・ト",
+    "レース入門"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@13",
+    "mid_phrase@27"
+   ]
+  },
+  {
+   "title": "Flutter と React Native、2026 年に選ぶならどっち？",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "Flutter と React Native、2026 ",
+    "年に選ぶならどっち？"
+   ],
+   "engineFont": [
+    "Flutter と React Native、2026 ",
+    "年に選ぶならどっち？"
+   ],
+   "engineEstimate": [
+    "Flutter と React Native、2026 ",
+    "年に選ぶならどっち？"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "ドメイン駆動設計を小さなプロジェクトに取り入れてみた",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "ドメイン駆動設計を小さなプ",
+    "ロジェクトに取り入れてみた"
+   ],
+   "engineFont": [
+    "ドメイン駆動設計を小さなプ",
+    "ロジェクトに取り入れてみた"
+   ],
+   "engineEstimate": [
+    "ドメイン駆動設計を小さなプ",
+    "ロジェクトに取り入れてみた"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": [
+    "mid_phrase@13"
+   ]
+  },
+  {
+   "title": "WebAssembly でブラウザ上に画像処理エンジンを載せる",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "WebAssembly でブラウザ上に",
+    "画像処理エンジンを載せる"
+   ],
+   "engineFont": [
+    "WebAssembly でブラウザ上に",
+    "画像処理エンジンを載せる"
+   ],
+   "engineEstimate": [
+    "WebAssembly でブラウザ上に",
+    "画像処理エンジンを載せる"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "エラーメッセージを読む力を鍛える",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "エラーメッセージを読む力を",
+    "鍛える"
+   ],
+   "engineFont": [
+    "エラーメッセージを読む力を",
+    "鍛える"
+   ],
+   "engineEstimate": [
+    "エラーメッセージを読む力を",
+    "鍛える"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  },
+  {
+   "title": "😇 本番 DB を消しかけた日のこと",
+   "wordBreak": "break-all",
+   "width": 1200,
+   "fontSize": 72,
+   "padding": 100,
+   "satori": [
+    "😇 本番 DB を消しかけた日の",
+    "こと"
+   ],
+   "engineFont": [
+    "😇 本番 DB を消しかけた日の",
+    "こと"
+   ],
+   "engineEstimate": [
+    "😇 本番 DB を消しかけた日の",
+    "こと"
+   ],
+   "matchFont": true,
+   "matchEstimate": true,
+   "violationsFont": []
+  }
+ ]
+}

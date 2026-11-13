@@ -1,0 +1,13 @@
+ogp-break-lint
+Copyright 2026 ogp-break-lint contributors
+
+This product includes software developed by ogp-break-lint contributors.
+Licensed under the Apache License, Version 2.0.
+
+This product bundles the following third-party software in dist/:
+- BudouX (Apache-2.0), Copyright Google LLC
+- linebreak (MIT)
+- fontkit (MIT)
+- yaml (ISC)
+The kerning table in src/kern-table.ts and the ASCII widths in src/width.ts are
+metrics measured from Noto Sans JP (SIL Open Font License 1.1); no font data is included.

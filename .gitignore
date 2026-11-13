@@ -1,0 +1,10 @@
+node_modules/
+ground-truth/
+*.ttf
+*.otf
+*.ttc
+.DS_Store
+*.tgz
+*.log
+.idea/
+.vscode/

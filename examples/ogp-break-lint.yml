@@ -1,0 +1,8 @@
+# ogp-break-lint config example (command-line options take precedence)
+width: 1200
+fontSize: 64
+padding: 80          # left = right. content width = width - padding * 2
+lineHeight: 1.25
+maxLines: 3          # more lines -> overflow violation (exit 1)
+locale: ja           # only ja is supported
+wordBreak: normal   # normal | break-all | keep-all (CSS word-break of your OG template)

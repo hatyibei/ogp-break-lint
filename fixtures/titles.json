@@ -1,0 +1,223 @@
+{
+  "$comment": "Expected lines with the default estimate (CJK = fontSize, ASCII = Noto Sans JP widths + kerning) and wordBreak normal unless options.wordBreak says otherwise. expected.types: violation types present (unordered, unique).",
+  "cases": [
+    {
+      "name": "幅が十分広く折れない",
+      "title": "開発者にも届けたい技術記事",
+      "options": {
+        "width": 1200,
+        "fontSize": 64,
+        "padding": 80
+      },
+      "expected": {
+        "lines": [
+          "開発者にも届けたい技術記事"
+        ],
+        "types": []
+      }
+    },
+    {
+      "name": "文節境界でちょうど折れる",
+      "title": "開発者にも届けたい技術記事",
+      "options": {
+        "width": 576,
+        "fontSize": 64,
+        "padding": 0
+      },
+      "expected": {
+        "lines": [
+          "開発者にも届けたい",
+          "技術記事"
+        ],
+        "types": []
+      }
+    },
+    {
+      "name": "狭い幅で文節途中（届け｜たい）",
+      "title": "開発者にも届けたい技術記事",
+      "options": {
+        "width": 448,
+        "fontSize": 64,
+        "padding": 0
+      },
+      "expected": {
+        "lines": [
+          "開発者にも届け",
+          "たい技術記事"
+        ],
+        "types": [
+          "mid_phrase"
+        ],
+        "midPhraseOffsets": [
+          7
+        ]
+      }
+    },
+    {
+      "name": "これは｜テストです の途中（テ｜スト）",
+      "title": "これはテストです",
+      "options": {
+        "width": 256,
+        "fontSize": 64,
+        "padding": 0
+      },
+      "expected": {
+        "lines": [
+          "これはテ",
+          "ストです"
+        ],
+        "types": [
+          "mid_phrase"
+        ],
+        "midPhraseOffsets": [
+          4
+        ]
+      }
+    },
+    {
+      "name": "行頭に「。」（break-all）",
+      "title": "今日は晴れ。明日も",
+      "options": {
+        "width": 320,
+        "fontSize": 64,
+        "padding": 0,
+        "wordBreak": "break-all"
+      },
+      "expected": {
+        "lines": [
+          "今日は晴れ",
+          "。明日も"
+        ],
+        "types": [
+          "mid_phrase",
+          "kinsoku"
+        ],
+        "kinsoku": [
+          {
+            "rule": "line_start",
+            "char": "。",
+            "offset": 5
+          }
+        ]
+      }
+    },
+    {
+      "name": "行頭に「、」（break-all）",
+      "title": "はい、そうです",
+      "options": {
+        "width": 128,
+        "fontSize": 64,
+        "padding": 0,
+        "maxLines": 5,
+        "wordBreak": "break-all"
+      },
+      "expected": {
+        "lines": [
+          "はい",
+          "、そ",
+          "うで",
+          "す"
+        ],
+        "types": [
+          "mid_phrase",
+          "kinsoku"
+        ],
+        "kinsoku": [
+          {
+            "rule": "line_start",
+            "char": "、",
+            "offset": 2
+          }
+        ]
+      }
+    },
+    {
+      "name": "行末に「「」（break-all）",
+      "title": "あいう「えお」",
+      "options": {
+        "width": 256,
+        "fontSize": 64,
+        "padding": 0,
+        "wordBreak": "break-all"
+      },
+      "expected": {
+        "lines": [
+          "あいう「",
+          "えお」"
+        ],
+        "types": [
+          "mid_phrase",
+          "kinsoku"
+        ],
+        "kinsoku": [
+          {
+            "rule": "line_end",
+            "char": "「",
+            "offset": 4
+          }
+        ]
+      }
+    },
+    {
+      "name": "英語のみ・広い幅",
+      "title": "Hello world from OGP",
+      "options": {},
+      "expected": {
+        "lines": [
+          "Hello world from OGP"
+        ],
+        "types": []
+      }
+    },
+    {
+      "name": "英語のみ・空白の直後で折れるのは境界扱い",
+      "title": "Hello world",
+      "options": {
+        "width": 192,
+        "fontSize": 64,
+        "padding": 0
+      },
+      "expected": {
+        "lines": [
+          "Hello ",
+          "world"
+        ],
+        "types": []
+      }
+    },
+    {
+      "name": "数字のみ・広い幅",
+      "title": "20261112",
+      "options": {},
+      "expected": {
+        "lines": [
+          "20261112"
+        ],
+        "types": []
+      }
+    },
+    {
+      "name": "maxLines 超過で overflow",
+      "title": "開発者にも届けたい技術記事",
+      "options": {
+        "width": 192,
+        "fontSize": 64,
+        "padding": 0,
+        "maxLines": 3
+      },
+      "expected": {
+        "lines": [
+          "開発者",
+          "にも届",
+          "けたい",
+          "技術記",
+          "事"
+        ],
+        "types": [
+          "mid_phrase",
+          "overflow"
+        ]
+      }
+    }
+  ]
+}

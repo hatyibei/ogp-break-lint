@@ -1,0 +1,61 @@
+{
+  "name": "ogp-break-lint",
+  "version": "0.1.0",
+  "description": "Lint Japanese OGP image titles in CI: catch line breaks in the middle of a phrase (BudouX) and kinsoku violations before Satori / @vercel/og renders them.",
+  "type": "module",
+  "bin": {
+    "ogp-break-lint": "./dist/cli.cjs"
+  },
+  "scripts": {
+    "build": "npm run build:cli && npm run build:action",
+    "build:cli": "esbuild src/cli.ts --bundle --platform=node --target=node20 --format=cjs --outfile=dist/cli.cjs --banner:js=\"#!/usr/bin/env node\"",
+    "build:action": "esbuild src/action.ts --bundle --platform=node --target=node20 --format=cjs --outfile=dist/index.cjs",
+    "test": "node --import tsx --test test/*.test.ts",
+    "start": "node dist/cli.cjs",
+    "typecheck": "tsc --noEmit",
+    "fixtures": "node dist/cli.cjs lint --file fixtures/titles.txt --list --width 2400"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "Apache-2.0",
+  "keywords": [
+    "ogp",
+    "og-image",
+    "satori",
+    "vercel-og",
+    "budoux",
+    "japanese",
+    "kinsoku",
+    "line-break",
+    "lint",
+    "github-action"
+  ],
+  "files": [
+    "dist/cli.cjs",
+    "dist/index.cjs",
+    "action.yml",
+    "README.md",
+    "README.ja.md",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hatyibei/ogp-break-lint.git"
+  },
+  "homepage": "https://github.com/hatyibei/ogp-break-lint#readme",
+  "bugs": {
+    "url": "https://github.com/hatyibei/ogp-break-lint/issues"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "budoux": "^0.10.3",
+    "esbuild": "^0.25.12",
+    "fontkit": "^2.0.4",
+    "linebreak": "^1.1.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "yaml": "^2.9.1"
+  }
+}

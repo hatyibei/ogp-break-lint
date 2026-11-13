@@ -1,0 +1,57 @@
+name: ogp-break-lint
+description: Fail the PR when a Japanese OGP image title breaks mid-phrase (BudouX) or violates kinsoku, as Satori / @vercel/og would render it.
+author: ogp-break-lint contributors
+inputs:
+  title:
+    description: Title to check (use either title or file)
+    required: false
+    default: ""
+  file:
+    description: Markdown file with YAML frontmatter (ogImage.title > og.title > title), or a one-title-per-line file with list "true". Relative to the workspace
+    required: false
+    default: ""
+  list:
+    description: 'If "true", read file as one title per line'
+    required: false
+    default: "false"
+  config:
+    description: YAML config file (e.g. .ogp-break-lint.yml); inputs below take precedence
+    required: false
+    default: ""
+  width:
+    description: Width of the text box's container in px (default 1200)
+    required: false
+    default: ""
+  font-size:
+    description: Font size in px (default 64)
+    required: false
+    default: ""
+  padding:
+    description: Left/right padding in px; content width = width - 2 * padding (default 80)
+    required: false
+    default: ""
+  line-height:
+    description: Line height multiplier (default 1.25)
+    required: false
+    default: ""
+  max-lines:
+    description: Maximum number of lines before an overflow violation (default 3)
+    required: false
+    default: ""
+  word-break:
+    description: "normal (Satori default) | break-all | keep-all — same as the CSS word-break of your OG template"
+    required: false
+    default: ""
+  font:
+    description: Path to the TTF/OTF your OG template passes to Satori (optional; measures with real glyph widths and kerning)
+    required: false
+    default: ""
+outputs:
+  exit-code:
+    description: "0 = no violations, 1 = violations, 2 = usage or input error"
+runs:
+  using: node24
+  main: dist/index.cjs
+branding:
+  icon: type
+  color: orange
